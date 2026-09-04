@@ -1,0 +1,15 @@
+Sheet Names: Mechanical , Electrical, Electronic, REKAP PUSAT, REKAP PERALATAN, Electrical 26, Technology 26, Mechanical 26, HLP, CGK, Electrical 25, Mechanical 25, Technology 25, KJT, BDO, DPS, LOP, BWX, KOE, PLM, PKU, PGK, PDG, BKS, TNJ, DTB, BTJ, TKG, DJB, TJQ, YIA, SUB, SRG, JOG, SOC, Sheet23, PWL, DHX, MDC, BIK, UPG, AMQ, DJJ, BDJ, BPN, PKY, PNK
+
+SUB ref: A1:AJ722
+Headers: O | REGION | LOCATION | LETTER CODE | TARGET | GENERATOR SET | PANEL TEGANGAN MENENGAH | PANEL TEGANGAN RENDAH | TRANSFORMATOR | UNINTERRUPTIBLE POWER SUPPLY (UPS) | AERONAUTICAL GROUND LIGHTING | KETERANGAN PERMASALAHAN ELEKTRIKAL |  SISTEM HVAC | WATER SUPPLY SYSTEM. STP DAN SISTEM PEMADAM | BAGGAGE HANDLING SYSTEM (BHS) | PASENGGER MOVING SYSTEM (PMS) | GARBARATA | PKP-PK | A2B & KENDARAAN OPERASIONAL | GROUND SUPPORT SERVICE | KETERANGAN PERMASALAHAN MEKANIKAL | XRAY | WTMD | HHMD | ETD | CCTV | BODY SCANNER | ACCESS CONTROL | FIRE ALARM SYSTEM | RADIO COMMUNICATION | FIDS | PUBLIC ADRESSING SYSTEM | BIRD DETERRENT | KETERANGAN PERMASALAHAN ELEKTRONIKA |  | 
+
+Row 1: 45809 | Region 4 | Juanda Airport Surabaya | SUB | 0.9 | 1 | 1 | 1 | 0.9955 | 0.9167 | 0.9867 | 1. Transformator T-07 di MPh rusak dan dalam proses pelaksanaan pekerjaan Investasi Pengadaan dan Penggantian Transformator T-07
+2. UPS T1B no.1 kondisi off karena kerusakan pada battery
+3. UPS T1A no.2 kondisi off karena kerusakan pada battery | 0.987168803574464 | 0.9609649122807017 | 1 | 0.9977678571428572 | 1 | 1 | 0.9105820105820105 |  | - Chiller No.6 T2 Circuit 3 kerusakan kontaktor dan rusak modul kontrolnya
+- Chiller No. 4 T2 kerusakan part sensor discharge tempt. discharge tempt switch. suction tempt sensor. DP. retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press). saat RLA 58% evaporator pressure  30 psi | 1 | 1 | 1 | 0.667 | 0.973 | 1 | 0.951 | 0.935 | 1 | 1 | 0.994 | 1 | 1. Terdapat kerusakan kamera pada area landside. perimeter dan terminal. Saat ini dilakukan proses perbaikan secara bertahap setelah pengadaan barang melalui PADI UMKM.
+2. Access Switch industrial CCTV outdoor 9 unit. 1 unit access switch gd arsip. dan 1 unit access switch ruang sales AOB dalam kondisi rusak. 
+3. Ada beberapa digital clock yang dilepas karena terdampak pekerjaan revitalisasi. akan dilakukan kordinasi dengan operasi untuk penempatan baru.
+4. Dari 3 ETD yang dimiliki ada 1 unit yang rusak (pengadaan tahun 2017). Rencana akan diusulkan hapus aset. Dan di tahun 2025/2026 ada investasi pengadaan ETD sebanyak 3 unit.
+5. Terdapat 4 titik akses door bermasalah. 3 titik access door T2. Avio E terdampak pek revitalisasi. koridor ruang office. access door gate 2&3 terdapat kerusakan pada dropbolt karena terkena tetesan air dari plafon. 1 titik access door T1 yaitu finger reader airside cek in 26.
+6. Terdapat 1 unit flap barrier di T1 mengalami kerusakan modul motor pengerak flap. Sedang di mintakan harga penawaran untuk penggantian modul motor penggerak. |  | 

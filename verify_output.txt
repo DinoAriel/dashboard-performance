@@ -1,0 +1,51 @@
+﻿=== HEADER ROW (Baris 0) ===
+  Kolom 0: O
+  Kolom 1: REGION
+  Kolom 2: LOCATION
+  Kolom 3: LETTER CODE
+  Kolom 4: TARGET
+  Kolom 5: GENERATOR SET
+  Kolom 6: PANEL TEGANGAN MENENGAH
+  Kolom 7: PANEL TEGANGAN RENDAH
+  Kolom 8: TRANSFORMATOR
+  Kolom 9: UNINTERRUPTIBLE POWER SUPPLY (UPS)
+  Kolom 10: AERONAUTICAL GROUND LIGHTING
+  Kolom 11: KETERANGAN PERMASALAHAN ELEKTRIKAL
+  Kolom 12:  SISTEM HVAC
+  Kolom 13: WATER SUPPLY SYSTEM. STP DAN SISTEM PEMADAM
+  Kolom 14: BAGGAGE HANDLING SYSTEM (BHS)
+  Kolom 15: PASENGGER MOVING SYSTEM (PMS)
+  Kolom 16: GARBARATA
+  Kolom 17: PKP-PK
+  Kolom 18: A2B & KENDARAAN OPERASIONAL
+  Kolom 19: GROUND SUPPORT SERVICE
+  Kolom 20: KETERANGAN PERMASALAHAN MEKANIKAL
+  Kolom 21: XRAY
+  Kolom 22: WTMD
+  Kolom 23: HHMD
+  Kolom 24: ETD
+  Kolom 25: CCTV
+  Kolom 26: BODY SCANNER
+  Kolom 27: ACCESS CONTROL
+  Kolom 28: FIRE ALARM SYSTEM
+  Kolom 29: RADIO COMMUNICATION
+  Kolom 30: FIDS
+  Kolom 31: PUBLIC ADRESSING SYSTEM
+  Kolom 32: BIRD DETERRENT
+  Kolom 33: KETERANGAN PERMASALAHAN ELEKTRONIKA
+  Kolom 34: (KOSONG)
+  Kolom 35: (KOSONG)
+
+Total baris data: 1267
+
+=== 3 BARIS TERAKHIR ===
+
+--- Baris 1267 | Tanggal: 31 Agustus 2026 ---
+  Target (Kol E): 0.9 (= 90%)
+  GenSet (Kol F): 1 (= 100%)
+  UPS (Kol J): 1 (= 100%)
+  Ket. Elektrikal (Kol L): 1. Tegangan tidak stabil
+  Garbarata (Kol Q): 1 (= 100%)
+  Ket. Mekanikal (Kol U): (KOSONG)
+  CCTV (Kol Z): 1 (= 100%)
+  Ket. Elektronika (Kol AH): 1. Test log for WTMD device health checks

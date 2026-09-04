@@ -1,9 +1,35 @@
 "use client";
 
-import { facilityDetails, categories } from "@/lib/mock-data";
+import { useState } from "react";
+import { facilityDetails as mockFacilityDetails, categories as mockCategories } from "@/lib/mock-data";
 import { cn } from "@/lib/utils";
 
-export function DashboardTable() {
+interface DashboardTableProps {
+  facilities?: {
+    id: string;
+    name: string;
+    category: string;
+    score: number;
+    status: "SEHAT" | "PERINGATAN" | "KRITIS";
+  }[];
+  categoriesList?: {
+    id: string;
+    label: string;
+    count: number;
+  }[];
+}
+
+export function DashboardTable({ facilities, categoriesList }: DashboardTableProps) {
+  const [selectedCategory, setSelectedCategory] = useState("semua");
+  
+  const facilitiesData = facilities && facilities.length > 0 ? facilities : mockFacilityDetails;
+  const categoriesData = categoriesList && categoriesList.length > 0 ? categoriesList : mockCategories;
+
+  const filteredFacilities = facilitiesData.filter(facility => {
+    if (selectedCategory === "semua") return true;
+    return facility.category.toLowerCase() === selectedCategory.toLowerCase();
+  });
+
   return (
     <div className="mt-6 rounded-xl border border-slate-200 bg-white shadow-sm mb-10">
       <div className="p-6 pb-4 border-b border-slate-100">
@@ -11,12 +37,13 @@ export function DashboardTable() {
           Detail Kesehatan Fasilitas
         </h2>
         <div className="flex flex-wrap gap-2">
-          {categories.map((cat, index) => (
+          {categoriesData.map((cat) => (
             <button
               key={cat.id}
+              onClick={() => setSelectedCategory(cat.id)}
               className={cn(
                 "rounded-full px-4 py-1.5 text-sm font-medium transition-colors border",
-                index === 0
+                selectedCategory === cat.id
                   ? "bg-[#2563EB] text-white border-[#2563EB]"
                   : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50"
               )}
@@ -40,7 +67,7 @@ export function DashboardTable() {
             </tr>
           </thead>
           <tbody className="divide-y divide-slate-100">
-            {facilityDetails.map((facility) => (
+            {filteredFacilities.map((facility) => (
               <tr key={facility.id} className="hover:bg-slate-50/50">
                 <td className="px-6 py-4 text-slate-600 font-medium">{facility.id}</td>
                 <td className="px-6 py-4 text-[#0F172A] font-semibold">{facility.name}</td>

@@ -1,25 +1,64 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { calendarEvents } from "@/lib/mock-data";
 
-export function CalendarGrid() {
+export function CalendarGrid({ 
+  selectedMonth,
+  events = [],
+  onDeleteEvent
+}: { 
+  selectedMonth?: string;
+  events?: Array<{ date: string; title: string; type: string }>;
+  onDeleteEvent?: (date: string, title: string) => void;
+}) {
   const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   
-  // Generating a simple array of days for August 2024 for mockup purposes
-  // August 2024 starts on a Thursday (index 4) and has 31 days.
-  // The first week in the screenshot shows 28, 29, 30, 31 (from July) then 1, 2, 3
-  const calendarDays = [
-    { date: 28, isCurrentMonth: false }, { date: 29, isCurrentMonth: false }, { date: 30, isCurrentMonth: false }, { date: 31, isCurrentMonth: false }, { date: 1, isCurrentMonth: true }, { date: 2, isCurrentMonth: true }, { date: 3, isCurrentMonth: true },
-    { date: 4, isCurrentMonth: true }, { date: 5, isCurrentMonth: true }, { date: 6, isCurrentMonth: true }, { date: 7, isCurrentMonth: true }, { date: 8, isCurrentMonth: true }, { date: 9, isCurrentMonth: true }, { date: 10, isCurrentMonth: true },
-    { date: 11, isCurrentMonth: true }, { date: 12, isCurrentMonth: true }, { date: 13, isCurrentMonth: true }, { date: 14, isCurrentMonth: true }, { date: 15, isCurrentMonth: true, fullDate: '2024-08-15' }, { date: 16, isCurrentMonth: true }, { date: 17, isCurrentMonth: true },
-    { date: 18, isCurrentMonth: true, fullDate: '2024-08-18' }, { date: 19, isCurrentMonth: true }, { date: 20, isCurrentMonth: true }, { date: 21, isCurrentMonth: true }, { date: 22, isCurrentMonth: true, fullDate: '2024-08-22' }, { date: 23, isCurrentMonth: true }, { date: 24, isCurrentMonth: true },
-    { date: 25, isCurrentMonth: true }, { date: 26, isCurrentMonth: true }, { date: 27, isCurrentMonth: true }, { date: 28, isCurrentMonth: true }, { date: 29, isCurrentMonth: true }, { date: 30, isCurrentMonth: true }, { date: 31, isCurrentMonth: true }
-  ];
+  // Parse month and year from selectedMonth
+  const now = new Date();
+  const year = selectedMonth ? parseInt(selectedMonth.split('-')[0]) : now.getFullYear();
+  const month = selectedMonth ? parseInt(selectedMonth.split('-')[1]) - 1 : now.getMonth();
+  
+  // Calculate days for the grid
+  const firstDayOfMonth = new Date(year, month, 1);
+  const lastDayOfMonth = new Date(year, month + 1, 0);
+  const startDayOfWeek = firstDayOfMonth.getDay(); // 0 = Sunday
+  const daysInMonth = lastDayOfMonth.getDate();
+  
+  const calendarDays = [];
+  
+  // Fill previous month trailing days
+  const prevMonthLastDay = new Date(year, month, 0).getDate();
+  for (let i = startDayOfWeek - 1; i >= 0; i--) {
+    calendarDays.push({ 
+      date: prevMonthLastDay - i, 
+      isCurrentMonth: false 
+    });
+  }
+  
+  // Fill current month days
+  for (let i = 1; i <= daysInMonth; i++) {
+    const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(i).padStart(2, '0')}`;
+    calendarDays.push({ 
+      date: i, 
+      isCurrentMonth: true, 
+      fullDate: dateStr,
+      isToday: dateStr === `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
+    });
+  }
+  
+  // Fill next month leading days to complete grid (either 35 or 42 total cells)
+  const totalCells = calendarDays.length > 35 ? 42 : 35;
+  let nextMonthDay = 1;
+  while (calendarDays.length < totalCells) {
+    calendarDays.push({ 
+      date: nextMonthDay++, 
+      isCurrentMonth: false 
+    });
+  }
 
   const getEventForDate = (fullDate?: string) => {
-    if (!fullDate || !calendarEvents) return null;
-    return calendarEvents.find(e => e.date === fullDate);
+    if (!fullDate || !events) return null;
+    return events.find(e => e.date === fullDate);
   };
 
   return (
@@ -32,10 +71,10 @@ export function CalendarGrid() {
         ))}
       </div>
       
-      <div className="flex-1 grid grid-cols-7 grid-rows-5">
+      <div className="flex-1 grid grid-cols-7 auto-rows-fr">
         {calendarDays.map((day, idx) => {
           const event = getEventForDate(day.fullDate);
-          const isToday = day.date === 22 && day.isCurrentMonth; // Hardcoded "today" selection based on screenshot
+          const isToday = day.isToday; // Menggunakan properti dari array dinamis
           
           return (
             <div 
@@ -53,12 +92,16 @@ export function CalendarGrid() {
               </div>
               
               {event && (
-                <div className={cn(
-                  "text-[10px] font-medium px-2 py-1 rounded truncate mt-1 cursor-pointer hover:opacity-90",
-                  event.type === 'routine' && "bg-[#1E70E8] text-white",
-                  event.type === 'repair' && "bg-red-100 text-red-700",
-                  event.type === 'inspection' && "bg-amber-100 text-amber-800"
-                )}>
+                <div 
+                  onClick={() => onDeleteEvent && onDeleteEvent(event.date, event.title)}
+                  className={cn(
+                    "text-[10px] font-medium px-2 py-1 rounded truncate mt-1 cursor-pointer hover:opacity-90 hover:ring-1 hover:ring-slate-300 transition-all",
+                    event.type === 'routine' && "bg-[#1E70E8] text-white",
+                    event.type === 'repair' && "bg-red-100 text-red-700",
+                    event.type === 'inspection' && "bg-amber-100 text-amber-800"
+                  )}
+                  title="Klik untuk menghapus"
+                >
                   {event.title}
                 </div>
               )}

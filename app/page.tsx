@@ -2,14 +2,19 @@ import { Topbar } from "@/components/Topbar";
 import { KPICard } from "@/components/KPICard";
 import { DashboardCharts } from "@/components/DashboardCharts";
 import { DashboardTable } from "@/components/DashboardTable";
-import { kpiData } from "@/lib/mock-data";
+import { getDashboardDataAsync } from "@/lib/excel-service";
 import { CheckCircle2, AlertCircle, ClipboardList, AlertTriangle } from "lucide-react";
 
-export default function Home() {
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
+
+  const data = await getDashboardDataAsync();
+  const { kpiData, monthlyHealthData, statusDistributionData, equipmentList, categories } = data;
+
   return (
     <div className="flex flex-col h-full overflow-y-auto bg-[#F8FAFC] pb-10">
       <Topbar title="Overview Performa Fasilitas" />
-
       
       <div className="px-8 mt-6">
         {/* KPI Cards */}
@@ -44,8 +49,15 @@ export default function Home() {
           />
         </div>
 
-        <DashboardCharts />
-        <DashboardTable />
+        <DashboardCharts 
+          monthlyHealth={monthlyHealthData} 
+          distribution={statusDistributionData}
+          totalEquipment={kpiData.totalInventory}
+        />
+        <DashboardTable 
+          facilities={equipmentList} 
+          categoriesList={categories}
+        />
       </div>
     </div>
   );
