@@ -12,9 +12,22 @@ import {
   Pie,
   Cell,
 } from "recharts";
-import { monthlyHealthData, statusDistributionData } from "@/lib/mock-data";
+import { monthlyHealthData as mockMonthlyHealthData, statusDistributionData as mockStatusDistributionData } from "@/lib/mock-data";
 
-export function DashboardCharts() {
+interface DashboardChartsProps {
+  monthlyHealth?: { name: string; value: number }[];
+  distribution?: { name: string; value: number; fill: string }[];
+  totalEquipment?: number;
+}
+
+export function DashboardCharts({ 
+  monthlyHealth, 
+  distribution,
+  totalEquipment = 26 
+}: DashboardChartsProps) {
+  const lineData = monthlyHealth || mockMonthlyHealthData;
+  const pieData = distribution || mockStatusDistributionData;
+
   return (
     <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-3">
       {/* Line Chart */}
@@ -25,7 +38,7 @@ export function DashboardCharts() {
         <div className="h-[250px] w-full">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart
-              data={monthlyHealthData}
+              data={lineData}
               margin={{ top: 5, right: 30, left: -20, bottom: 5 }}
             >
               <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
@@ -68,7 +81,7 @@ export function DashboardCharts() {
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <Pie
-                data={statusDistributionData}
+                data={pieData}
                 cx="50%"
                 cy="50%"
                 innerRadius={60}
@@ -77,7 +90,7 @@ export function DashboardCharts() {
                 dataKey="value"
                 stroke="none"
               >
-                {statusDistributionData.map((entry, index) => (
+                {pieData.map((entry: any, index: number) => (
                   <Cell key={`cell-${index}`} fill={entry.fill} />
                 ))}
               </Pie>
@@ -86,14 +99,14 @@ export function DashboardCharts() {
           </ResponsiveContainer>
           {/* Inner Text */}
           <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-            <span className="text-3xl font-bold text-[#0F172A]">26</span>
+            <span className="text-3xl font-bold text-[#0F172A]">{totalEquipment}</span>
             <span className="text-xs font-medium text-slate-500">Total</span>
           </div>
         </div>
 
         {/* Legend */}
         <div className="mt-4 flex flex-col gap-2">
-          {statusDistributionData.map((item) => (
+          {pieData.map((item: any) => (
             <div key={item.name} className="flex items-center justify-between text-sm">
               <div className="flex items-center gap-2">
                 <div
@@ -110,3 +123,4 @@ export function DashboardCharts() {
     </div>
   );
 }
+

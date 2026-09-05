@@ -1,36 +1,146 @@
 "use client";
 
-import { equipmentList } from "@/lib/mock-data";
+import { useState } from "react";
+import { equipmentList as mockEquipmentList } from "@/lib/mock-data";
 import { cn } from "@/lib/utils";
 import { ChevronDown, Filter } from "lucide-react";
 
 interface EquipmentTableProps {
   selectedId: string | null;
   onSelect: (id: string) => void;
+  equipment?: {
+    id: string;
+    name: string;
+    category: string;
+    location: string;
+    score: number;
+    status: "SEHAT" | "PERINGATAN" | "KRITIS";
+  }[];
+  searchQuery?: string;
+  isLoading?: boolean;
 }
 
-export function EquipmentTable({ selectedId, onSelect }: EquipmentTableProps) {
+export function EquipmentTable({ selectedId, onSelect, equipment, searchQuery = "", isLoading = false }: EquipmentTableProps) {
+  const [selectedCategory, setSelectedCategory] = useState<string>("semua");
+  const [selectedStatus, setSelectedStatus] = useState<string>("semua");
+  const [isCategoryOpen, setIsCategoryOpen] = useState(false);
+  const [isStatusOpen, setIsStatusOpen] = useState(false);
+
+  const listData = equipment || [];
+
+  const filteredList = listData.filter((item) => {
+    const matchCategory =
+      selectedCategory === "semua" ||
+      item.category.toLowerCase() === selectedCategory.toLowerCase();
+
+    const matchStatus =
+      selectedStatus === "semua" ||
+      item.status.toLowerCase() === selectedStatus.toLowerCase();
+
+    const matchSearch =
+      !searchQuery ||
+      item.id.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      item.location.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      item.category.toLowerCase().includes(searchQuery.toLowerCase());
+
+    return matchCategory && matchStatus && matchSearch;
+  });
+
   return (
     <div className="flex flex-col h-full bg-white border-r border-slate-200 w-full overflow-hidden">
       {/* Filters Area */}
       <div className="flex items-center justify-between px-6 py-4 border-b border-slate-200">
         <div className="flex items-center gap-4">
-          <div className="flex flex-col gap-1">
+          {/* Category Filter */}
+          <div className="flex flex-col gap-1 relative">
             <span className="text-[10px] font-bold text-slate-500 tracking-wider">KATEGORI</span>
-            <button className="flex items-center justify-between w-40 px-3 py-1.5 text-sm border border-slate-200 rounded-md text-slate-700 bg-white hover:bg-slate-50">
-              Semua Kategori
+            <button 
+              onClick={() => {
+                setIsCategoryOpen(!isCategoryOpen);
+                setIsStatusOpen(false);
+              }}
+              className="flex items-center justify-between w-40 px-3 py-1.5 text-sm border border-slate-200 rounded-md text-slate-700 bg-white hover:bg-slate-50 font-normal cursor-pointer select-none"
+            >
+              {selectedCategory === "semua"
+                ? "Semua Kategori"
+                : selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1).toLowerCase()}
               <ChevronDown size={14} className="text-slate-400" />
             </button>
+            {isCategoryOpen && (
+              <div className="absolute top-[52px] left-0 w-40 bg-white border border-slate-200 rounded-md shadow-lg z-30 py-1">
+                {["Semua Kategori", "ELEKTRIKAL", "MEKANIKAL", "ELEKTRONIKA"].map((cat) => {
+                  const val = cat === "Semua Kategori" ? "semua" : cat;
+                  return (
+                    <button
+                      key={cat}
+                      onClick={() => {
+                        setSelectedCategory(val.toLowerCase());
+                        setIsCategoryOpen(false);
+                      }}
+                      className={cn(
+                        "w-full text-left px-3 py-1.5 text-sm hover:bg-slate-50 cursor-pointer",
+                        selectedCategory === val.toLowerCase() ? "font-semibold text-[#0F52BA]" : "text-slate-600"
+                      )}
+                    >
+                      {cat === "Semua Kategori" ? cat : cat.charAt(0).toUpperCase() + cat.slice(1).toLowerCase()}
+                    </button>
+                  );
+                })}
+              </div>
+            )}
           </div>
-          <div className="flex flex-col gap-1">
+
+          {/* Status Filter */}
+          <div className="flex flex-col gap-1 relative">
             <span className="text-[10px] font-bold text-slate-500 tracking-wider">STATUS KESEHATAN</span>
-            <button className="flex items-center justify-between w-40 px-3 py-1.5 text-sm border border-slate-200 rounded-md text-slate-700 bg-white hover:bg-slate-50">
-              Semua Status
+            <button 
+              onClick={() => {
+                setIsStatusOpen(!isStatusOpen);
+                setIsCategoryOpen(false);
+              }}
+              className="flex items-center justify-between w-40 px-3 py-1.5 text-sm border border-slate-200 rounded-md text-slate-700 bg-white hover:bg-slate-50 font-normal cursor-pointer select-none"
+            >
+              {selectedStatus === "semua"
+                ? "Semua Status"
+                : selectedStatus.toUpperCase()}
               <ChevronDown size={14} className="text-slate-400" />
             </button>
+            {isStatusOpen && (
+              <div className="absolute top-[52px] left-0 w-40 bg-white border border-slate-200 rounded-md shadow-lg z-30 py-1">
+                {["Semua Status", "SEHAT", "PERINGATAN", "KRITIS"].map((status) => {
+                  const val = status === "Semua Status" ? "semua" : status;
+                  return (
+                    <button
+                      key={status}
+                      onClick={() => {
+                        setSelectedStatus(val.toLowerCase());
+                        setIsStatusOpen(false);
+                      }}
+                      className={cn(
+                        "w-full text-left px-3 py-1.5 text-sm hover:bg-slate-50 cursor-pointer",
+                        selectedStatus === val.toLowerCase() ? "font-semibold text-[#0F52BA]" : "text-slate-600"
+                      )}
+                    >
+                      {status === "Semua Status" ? status : status.toUpperCase()}
+                    </button>
+                  );
+                })}
+              </div>
+            )}
           </div>
         </div>
-        <button className="p-2 border border-slate-200 rounded-md text-slate-500 hover:bg-slate-50 mt-4">
+
+        <button 
+          onClick={() => {
+            setSelectedCategory("semua");
+            setSelectedStatus("semua");
+            setIsCategoryOpen(false);
+            setIsStatusOpen(false);
+          }}
+          title="Reset Filters"
+          className="p-2 border border-slate-200 rounded-md text-slate-500 hover:bg-slate-50 cursor-pointer active:bg-slate-100"
+        >
           <Filter size={18} />
         </button>
       </div>
@@ -49,7 +159,19 @@ export function EquipmentTable({ selectedId, onSelect }: EquipmentTableProps) {
             </tr>
           </thead>
           <tbody className="divide-y divide-slate-100">
-            {equipmentList.map((item) => (
+            {isLoading ? (
+              <tr>
+                <td colSpan={6} className="px-6 py-8 text-center text-slate-500">
+                  Memuat data alat...
+                </td>
+              </tr>
+            ) : filteredList.length === 0 ? (
+              <tr>
+                <td colSpan={6} className="px-6 py-8 text-center text-slate-500">
+                  Tidak ada alat yang ditemukan.
+                </td>
+              </tr>
+            ) : filteredList.map((item) => (
               <tr 
                 key={item.id} 
                 onClick={() => onSelect(item.id)}

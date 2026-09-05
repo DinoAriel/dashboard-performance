@@ -1,0 +1,302 @@
+{
+  "kpiData": {
+    "averageScore": 98.1,
+    "criticalFacilities": 1,
+    "totalInventory": 26,
+    "newAlerts": 1
+  },
+  "categories": [
+    {
+      "id": "semua",
+      "label": "Semua",
+      "count": 26
+    },
+    {
+      "id": "elektrikal",
+      "label": "Elektrikal",
+      "count": 6
+    },
+    {
+      "id": "mekanikal",
+      "label": "Mekanikal",
+      "count": 8
+    },
+    {
+      "id": "elektronika",
+      "label": "Elektronika",
+      "count": 12
+    }
+  ],
+  "monthlyHealthData": [
+    {
+      "name": "Jan 26",
+      "value": 96.6
+    },
+    {
+      "name": "Feb 26",
+      "value": 94
+    },
+    {
+      "name": "Mar 26",
+      "value": 94.5
+    },
+    {
+      "name": "Apr 26",
+      "value": 94.3
+    },
+    {
+      "name": "Mei 26",
+      "value": 94.1
+    },
+    {
+      "name": "Jun 26",
+      "value": 94.7
+    },
+    {
+      "name": "Jul 26",
+      "value": 97.3
+    },
+    {
+      "name": "Agt 26",
+      "value": 97.8
+    }
+  ],
+  "statusDistributionData": [
+    {
+      "name": "Hijau (Sehat >96%)",
+      "value": 96,
+      "fill": "#16a34a"
+    },
+    {
+      "name": "Kuning (Peringatan)",
+      "value": 0,
+      "fill": "#eab308"
+    },
+    {
+      "name": "Merah (Kritis <90%)",
+      "value": 4,
+      "fill": "#dc2626"
+    }
+  ],
+  "equipmentList": [
+    {
+      "id": "ELK-01",
+      "name": "Generator Set",
+      "category": "ELEKTRIKAL",
+      "location": "Terminal 1",
+      "score": 50,
+      "status": "KRITIS"
+    },
+    {
+      "id": "ELK-02",
+      "name": "Panel Tegangan Menengah",
+      "category": "ELEKTRIKAL",
+      "location": "Gardu Hubung",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELK-03",
+      "name": "Panel Tegangan Rendah",
+      "category": "ELEKTRIKAL",
+      "location": "Power House",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELK-04",
+      "name": "Transformator",
+      "category": "ELEKTRIKAL",
+      "location": "Main Power House",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELK-05",
+      "name": "UPS",
+      "category": "ELEKTRIKAL",
+      "location": "T1B & T1A",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELK-06",
+      "name": "Aeronautical Ground Lighting",
+      "category": "ELEKTRIKAL",
+      "location": "Runway & Taxiway",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "MEK-01",
+      "name": "Sistem HVAC",
+      "category": "MEKANIKAL",
+      "location": "Terminal 2 & T1B",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "MEK-02",
+      "name": "Water Supply & STP",
+      "category": "MEKANIKAL",
+      "location": "STP Area",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "MEK-03",
+      "name": "Baggage Handling System",
+      "category": "MEKANIKAL",
+      "location": "Baggage Claim",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "MEK-04",
+      "name": "Passenger Moving System",
+      "category": "MEKANIKAL",
+      "location": "Terminal 1 & 2",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "MEK-05",
+      "name": "Garbarata",
+      "category": "MEKANIKAL",
+      "location": "Gate 1 - 12",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "MEK-06",
+      "name": "PKP-PK",
+      "category": "MEKANIKAL",
+      "location": "Fire Station",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "MEK-07",
+      "name": "A2B & Kendaraan Operasional",
+      "category": "MEKANIKAL",
+      "location": "Apron & Landside",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "MEK-08",
+      "name": "Ground Support Service",
+      "category": "MEKANIKAL",
+      "location": "Apron Area",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-01",
+      "name": "X-Ray Scanner",
+      "category": "ELEKTRONIKA",
+      "location": "Security Checkpoint",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-02",
+      "name": "WTMD (Metal Detector)",
+      "category": "ELEKTRONIKA",
+      "location": "Security Checkpoint",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-03",
+      "name": "HHMD",
+      "category": "ELEKTRONIKA",
+      "location": "Terminal Checkpoint",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-04",
+      "name": "ETD (Explosive Trace)",
+      "category": "ELEKTRONIKA",
+      "location": "Security Checkpoint",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-05",
+      "name": "CCTV System",
+      "category": "ELEKTRONIKA",
+      "location": "Control Room / All Areas",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-06",
+      "name": "Body Scanner",
+      "category": "ELEKTRONIKA",
+      "location": "International Departure",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-07",
+      "name": "Access Control",
+      "category": "ELEKTRONIKA",
+      "location": "Staff Entrance & Gates",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-08",
+      "name": "Fire Alarm System",
+      "category": "ELEKTRONIKA",
+      "location": "Terminal Buildings",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-09",
+      "name": "Radio Communication",
+      "category": "ELEKTRONIKA",
+      "location": "AOC & Operations",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-10",
+      "name": "FIDS (Flight Info)",
+      "category": "ELEKTRONIKA",
+      "location": "Departure & Arrival Halls",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-11",
+      "name": "Public Addressing System",
+      "category": "ELEKTRONIKA",
+      "location": "All Passenger Areas",
+      "score": 100,
+      "status": "SEHAT"
+    },
+    {
+      "id": "ELT-12",
+      "name": "Bird Deterrent",
+      "category": "ELEKTRONIKA",
+      "location": "Runway Perimeter",
+      "score": 100,
+      "status": "SEHAT"
+    }
+  ],
+  "alertLogs": [
+    {
+      "id": 1,
+      "severity": "PERINGATAN",
+      "time": "Aktif",
+      "incidentNumber": "INC-2002",
+      "title": "Generator Set - tes",
+      "facility": "Generator Set (Elektrikal)",
+      "note": "Generator Set - tes"
+    }
+  ]
+}

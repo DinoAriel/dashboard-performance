@@ -1,0 +1,406 @@
+﻿diff --git a/components/EquipmentDetailPanel.tsx b/components/EquipmentDetailPanel.tsx
+index 82dd344..e3fbf25 100644
+--- a/components/EquipmentDetailPanel.tsx
++++ b/components/EquipmentDetailPanel.tsx
+@@ -1,83 +1,216 @@
+ "use client";
+ 
+-import { X, AlertTriangle, TrendingDown, Wrench } from "lucide-react";
+-import { equipmentDetail } from "@/lib/mock-data";
++import React, { useState, useEffect } from "react";
++import { X, AlertTriangle, TrendingDown, Wrench, Calendar, FileText, CheckCircle2 } from "lucide-react";
+ 
+ interface EquipmentDetailPanelProps {
+   equipmentId: string | null;
+   onClose: () => void;
++  liveEquipment?: {
++    id: string;
++    name: string;
++    category: string;
++    location: string;
++    score: number;
++    status: "SEHAT" | "PERINGATAN" | "KRITIS";
++  };
++  onRefreshData?: () => void;
+ }
+ 
+-export function EquipmentDetailPanel({ equipmentId, onClose }: EquipmentDetailPanelProps) {
++// Client-side specs mapping for all 26 equipment items
++const EQUIPMENT_SPECS_CLIENT: Record<string, { brand: string; model: string; installation: string }> = {
++  "ELK-01": { brand: "Caterpillar", model: "CAT 3516B", installation: "12 Mei 2018" },
++  "ELK-02": { brand: "Schneider Electric", model: "Premset MV", installation: "05 Apr 2019" },
++  "ELK-03": { brand: "Siemens", model: "Sivacon S8", installation: "22 Okt 2019" },
++  "ELK-04": { brand: "ABB", model: "Cast Resin 2500kVA", installation: "17 Jun 2018" },
++  "ELK-05": { brand: "Eaton", model: "PowerXpert 9395", installation: "09 Jan 2020" },
++  "ELK-06": { brand: "ADB Safegate", model: "AGL-LED Series", installation: "14 Agst 2021" },
++  "MEK-01": { brand: "Daikin", model: "Centrifugal Chiller", installation: "11 Feb 2020" },
++  "MEK-02": { brand: "Grundfos", model: "Hydro MPC", installation: "29 Sep 2019" },
++  "MEK-03": { brand: "Vanderlande", model: "TUBTRAX 2.0", installation: "08 Des 2018" },
++  "MEK-04": { brand: "Otis", model: "Escalator 515 NPE", installation: "14 Jul 2017" },
++  "MEK-05": { brand: "Bukaka", model: "BPP-3000", installation: "12 Agst 2021" },
++  "MEK-06": { brand: "Rosenbauer", model: "Panther 6x6", installation: "03 Nop 2020" },
++  "MEK-07": { brand: "Toyota / Komatsu", model: "FB25 / Tugger", installation: "20 Mei 2021" },
++  "MEK-08": { brand: "TLD", model: "GPU-418", installation: "15 Mar 2022" },
++  "ELT-01": { brand: "Smiths Detection", model: "HI-SCAN 6040i", installation: "12 Agst 2021" },
++  "ELT-02": { brand: "Ceia", model: "PMD2 Plus", installation: "04 Okt 2020" },
++  "ELT-03": { brand: "Garrett", model: "Super Scanner T", installation: "18 Jan 2022" },
++  "ELT-04": { brand: "Bruker", model: "DE-tector flex", installation: "09 Sep 2021" },
++  "ELT-05": { brand: "Hikvision", model: "DarkFighter PTZ", installation: "15 Mei 2021" },
++  "ELT-06": { brand: "L3Harris", model: "ProVision 2", installation: "25 Nop 2021" },
++  "ELT-07": { brand: "Bosch", model: "Access Engine v3", installation: "06 Mar 2020" },
++  "ELT-08": { brand: "Notifier by Honeywell", model: "NFS2-3030", installation: "12 Okt 2019" },
++  "ELT-09": { brand: "Motorola Solutions", model: "Dimetra Tetra TETRA IP", installation: "04 Jun 2021" },
++  "ELT-10": { brand: "NEC", model: "FIDS-OPS Professional", installation: "20 Jul 2020" },
++  "ELT-11": { brand: "Bosch", model: "Praesideo PAS", installation: "30 Apr 2020" },
++  "ELT-12": { brand: "Scarecrow Group", model: "BIRD-D-100", installation: "15 Jan 2022" }
++};
++
++export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment, onRefreshData }: EquipmentDetailPanelProps) {
++  const [isModalOpen, setIsModalOpen] = useState(false);
++  const [reportDate, setReportDate] = useState("2026-08-31");
++  const [score, setScore] = useState(100);
++  const [description, setDescription] = useState("");
++  const [submitting, setSubmitting] = useState(false);
++  const [statusMessage, setStatusMessage] = useState<{ type: "success" | "error"; text: string } | null>(null);
++
++  // Set default date to today's date in local YYYY-MM-DD
++  useEffect(() => {
++    const today = new Date();
++    const yyyy = today.getFullYear();
++    const mm = String(today.getMonth() + 1).padStart(2, "0");
++    const dd = String(today.getDate()).padStart(2, "0");
++    setReportDate(`${yyyy}-${mm}-${dd}`);
++  }, [isModalOpen]);
++
+   if (!equipmentId) return null;
+ 
+-  // In a real app, you would fetch details based on equipmentId
+-  // For this UI mockup, we use the static equipmentDetail for ELT-02
+-  const data = equipmentDetail;
++  // Data default
++  const data = liveEquipment || {
++    id: equipmentId,
++    name: "Alat Bandara",
++    category: "UMUM",
++    location: "Sisi Udara",
++    score: 100,
++    status: "SEHAT" as const
++  };
++
++  const specs = EQUIPMENT_SPECS_CLIENT[equipmentId] || {
++    brand: "General Ops",
++    model: "Standard Series",
++    installation: "01 Jan 2020"
++  };
++
++  const trendIcon = data.score < 96 ? TrendingDown : undefined;
++
++  const handleSubmit = async (e: React.FormEvent) => {
++    e.preventDefault();
++    setSubmitting(true);
++    setStatusMessage(null);
++
++    try {
++      const res = await fetch("/api/logs", {
++        method: "POST",
++        headers: {
++          "Content-Type": "application/json"
++        },
++        body: JSON.stringify({
++          date: reportDate,
++          equipmentId,
++          score,
++          description
++        })
++      });
++
++      const responseData = await res.json();
++      if (res.ok) {
++        setStatusMessage({
++          type: "success",
++          text: "Pencatatan kesehatan berhasil disimpan langsung ke Excel (Sheet SUB)!"
++        });
++        
++        // Bersihkan form
++        setDescription("");
++        
++        // Refresh data parent setelah 1.5 detik
++        setTimeout(() => {
++          setIsModalOpen(false);
++          setStatusMessage(null);
++          if (onRefreshData) onRefreshData();
++        }, 1500);
++
++      } else {
++        setStatusMessage({
++          type: "error",
++          text: responseData.error || "Gagal mencatatkan ke Excel."
++        });
++      }
++    } catch (error) {
++      setStatusMessage({
++        type: "error",
++        text: "Terjadi kesalahan jaringan/koneksi saat merekam data."
++      });
++    } finally {
++      setSubmitting(false);
++    }
++  };
+ 
+   return (
+-    <div className="w-[320px] shrink-0 bg-[#FAFAFA] border-l border-slate-200 flex flex-col h-full z-20">
++    <div className="w-[320px] shrink-0 bg-[#FAFAFA] border-l border-slate-200 flex flex-col h-full z-20 shadow-lg relative">
+       {/* Header */}
+-      <div className="flex items-start justify-between p-6 border-b border-slate-200">
++      <div className="flex items-start justify-between p-6 border-b border-slate-200 bg-white">
+         <div>
+-          <h3 className="text-[10px] font-bold text-slate-500 tracking-wider uppercase mb-1">DETAIL PERALATAN</h3>
+-          <h2 className="text-lg font-bold text-[#0F172A]">{data.name} ({data.id})</h2>
+-          <p className="text-xs text-slate-500 mt-0.5">{data.location} ΓÇó {data.category}</p>
++          <h3 className="text-[10px] font-bold text-slate-500 tracking-wider uppercase mb-1">DETAIL PERALATAN (LIVE)</h3>
++          <h2 className="text-base font-bold text-[#0F172A] leading-tight">{data.name} ({data.id})</h2>
++          <p className="text-[11px] text-slate-500 mt-1">{data.location} ΓÇó {data.category}</p>
+         </div>
+-        <button onClick={onClose} className="p-1 text-slate-400 hover:text-slate-700 hover:bg-slate-200 rounded">
+-          <X size={20} />
++        <button onClick={onClose} className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-md transition-colors">
++          <X size={18} />
+         </button>
+       </div>
+ 
+       <div className="flex-1 overflow-y-auto p-6 flex flex-col gap-6">
+-        {/* Alert Box */}
+-        {data.status === 'KRITIS' && (
+-          <div className="border border-red-200 bg-red-50/50 rounded-lg p-4">
+-            <div className="flex items-center gap-2 text-red-600 mb-2">
+-              <AlertTriangle size={18} />
+-              <span className="font-bold">Status: {data.status}</span>
+-            </div>
+-            <p className="text-sm text-slate-600 leading-relaxed">
+-              {data.alertMessage}
+-            </p>
++        {/* Status Info Box */}
++        <div className={`p-4 rounded-xl border ${
++          data.status === "SEHAT" 
++            ? "border-green-200 bg-green-50/30 text-green-800"
++            : data.status === "PERINGATAN"
++            ? "border-yellow-200 bg-yellow-50/30 text-yellow-800"
++            : "border-red-200 bg-red-50/30 text-red-800"
++        }`}>
++          <div className="flex items-center gap-2 mb-1.5 font-bold text-sm">
++            {data.status === "SEHAT" ? (
++              <CheckCircle2 size={16} className="text-green-600" />
++            ) : (
++              <AlertTriangle size={16} className={data.status === "KRITIS" ? "text-red-600" : "text-yellow-600"} />
++            )}
++            <span>Status: {data.status}</span>
+           </div>
+-        )}
++          <p className="text-[12px] text-slate-500 leading-normal">
++            Skor kesehatan alat saat ini terdaftar sebesar <strong className="text-slate-800 font-semibold">{data.score}%</strong>.
++            {data.status === "KRITIS" && " Alat membutuhkan perawatan kritis dan perbaikan segera!"}
++            {data.status === "PERINGATAN" && " Alat terdeteksi mengalami degradasi ringan."}
++            {data.status === "SEHAT" && " Alat berjalan normal sesuai dengan parameter."}
++          </p>
++        </div>
+ 
+-        {/* Health Trend */}
++        {/* Health Score Card */}
+         <div>
+-          <h3 className="text-[11px] font-bold text-slate-500 tracking-wider uppercase mb-3 border-b border-slate-200 pb-2">
+-            HEALTH TREND (30 DAYS)
++          <h3 className="text-[10px] font-bold text-slate-500 tracking-wider uppercase mb-3 border-b border-slate-200 pb-1.5">
++            SKOR KESEHATAN TERBARU
+           </h3>
+-          <div className="border border-slate-200 bg-white rounded-lg p-6 flex items-end justify-between shadow-sm">
+-            <span className="text-4xl font-bold text-[#0F172A]">{data.score}%</span>
+-            <div className="flex items-center gap-1 text-red-500 font-medium text-sm mb-1">
+-              <TrendingDown size={16} />
+-              {data.scoreChange}%
++          <div className="border border-slate-200 bg-white rounded-xl p-5 flex items-end justify-between shadow-sm">
++            <div>
++              <span className="text-3xl font-bold text-[#0F172A] tracking-tight">{data.score}%</span>
++              <p className="text-[10px] text-slate-400 mt-1 uppercase font-medium">Kondisi Alat</p>
+             </div>
++            {trendIcon && (
++              <div className="flex items-center gap-1 text-red-500 font-bold text-xs bg-red-50 px-2 py-1 rounded-lg">
++                <TrendingDown size={14} />
++                Degradasi
++              </div>
++            )}
+           </div>
+         </div>
+ 
+         {/* Specifications */}
+         <div>
+-          <h3 className="text-[11px] font-bold text-slate-500 tracking-wider uppercase mb-3 border-b border-slate-200 pb-2">
+-            SPECIFICATIONS
++          <h3 className="text-[10px] font-bold text-slate-500 tracking-wider uppercase mb-3 border-b border-slate-200 pb-1.5">
++            SPESIFIKASI ALAT
+           </h3>
+-          <div className="grid grid-cols-2 gap-y-4 gap-x-2">
++          <div className="grid grid-cols-2 gap-y-4 gap-x-2 bg-white border border-slate-200 rounded-xl p-4 shadow-sm">
+             <div>
+-              <p className="text-[10px] text-slate-500 font-semibold mb-0.5 uppercase tracking-wide">BRAND</p>
+-              <p className="text-sm text-slate-800 font-medium">{data.specifications.brand}</p>
++              <p className="text-[9px] text-slate-400 font-bold uppercase tracking-wide">MEREK / BRAND</p>
++              <p className="text-xs text-slate-800 font-semibold mt-0.5">{specs.brand}</p>
+             </div>
+             <div>
+-              <p className="text-[10px] text-slate-500 font-semibold mb-0.5 uppercase tracking-wide">MODEL</p>
+-              <p className="text-sm text-slate-800 font-medium">{data.specifications.model}</p>
++              <p className="text-[9px] text-slate-400 font-bold uppercase tracking-wide">MODEL / TIPE</p>
++              <p className="text-xs text-slate-800 font-semibold mt-0.5">{specs.model}</p>
+             </div>
+-            <div>
+-              <p className="text-[10px] text-slate-500 font-semibold mb-0.5 uppercase tracking-wide">INSTALLATION</p>
+-              <p className="text-sm text-slate-800 font-medium">{data.specifications.installation}</p>
+-            </div>
+-            <div>
+-              <p className="text-[10px] text-slate-500 font-semibold mb-0.5 uppercase tracking-wide">LAST MAINTENANCE</p>
+-              <p className="text-sm text-slate-800 font-medium">{data.specifications.lastMaintenance}</p>
++            <div className="col-span-2">
++              <p className="text-[9px] text-slate-400 font-bold uppercase tracking-wide">TANGGAL INSTALASI</p>
++              <p className="text-xs text-slate-800 font-semibold mt-0.5">{specs.installation}</p>
+             </div>
+           </div>
+         </div>
+@@ -85,14 +218,133 @@ export function EquipmentDetailPanel({ equipmentId, onClose }: EquipmentDetailPa
+ 
+       {/* Action Buttons */}
+       <div className="p-6 border-t border-slate-200 bg-white flex flex-col gap-3">
+-        <button className="w-full flex items-center justify-center gap-2 bg-[#B91C1C] text-white font-semibold py-2.5 rounded-lg hover:bg-[#991b1b] transition-colors shadow-sm">
+-          <Wrench size={18} />
+-          Buat Tiket Perbaikan
++        <button 
++          onClick={() => setIsModalOpen(true)}
++          className="w-full flex items-center justify-center gap-2 bg-[#2563EB] text-white font-bold py-2.5 rounded-lg hover:bg-[#1d4ed8] transition-colors shadow-sm cursor-pointer"
++        >
++          <Wrench size={16} />
++          Catat Kesehatan Baru (Excel)
+         </button>
+-        <button className="w-full bg-slate-50 border border-slate-200 text-slate-700 font-medium py-2.5 rounded-lg hover:bg-slate-100 transition-colors">
+-          Lihat Log Lengkap
++        <button 
++          onClick={() => window.location.href = "/"}
++          className="w-full bg-slate-50 border border-slate-200 text-slate-600 font-semibold py-2.5 rounded-lg hover:bg-slate-100 transition-colors text-xs text-center cursor-pointer"
++        >
++          Kembali ke Dashboard Utama
+         </button>
+       </div>
++
++      {/* MODAL INPUT PENCATATAN BARU */}
++      {isModalOpen && (
++        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
++          <div className="bg-white rounded-2xl w-full max-w-md overflow-hidden shadow-2xl border border-slate-100 flex flex-col animate-in fade-in zoom-in-95 duration-150">
++            {/* Modal Header */}
++            <div className="flex items-center justify-between p-5 border-b border-slate-100">
++              <div>
++                <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest">FORM CATAT LAJU KONDISI</h3>
++                <h2 className="text-base font-bold text-slate-800 mt-0.5">Catat Kondisi {data.name}</h2>
++              </div>
++              <button 
++                onClick={() => { setIsModalOpen(false); setStatusMessage(null); }}
++                className="p-1 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-md transition-colors"
++              >
++                <X size={20} />
++              </button>
++            </div>
++
++            {/* Modal Body / Form */}
++            <form onSubmit={handleSubmit} className="p-6 flex flex-col gap-5">
++              {statusMessage && (
++                <div className={`p-4 rounded-xl text-xs font-semibold ${
++                  statusMessage.type === "success" 
++                    ? "bg-green-100 text-green-800 border border-green-200" 
++                    : "bg-red-100 text-red-800 border border-red-200"
++                }`}>
++                  {statusMessage.text}
++                </div>
++              )}
++
++              {/* Input Tanggal */}
++              <div className="flex flex-col gap-1.5">
++                <label className="text-xs font-bold text-slate-500 uppercase flex items-center gap-1.5">
++                  <Calendar size={14} className="text-slate-400" />
++                  Tanggal Pemeriksaan
++                </label>
++                <input 
++                  type="date"
++                  required
++                  value={reportDate}
++                  onChange={(e) => setReportDate(e.target.value)}
++                  className="w-full px-3 py-2 border border-slate-200 rounded-lg text-sm text-slate-700 outline-none focus:border-[#2563EB] transition-colors"
++                />
++                <span className="text-[10px] text-slate-400">
++                  Data akan ditambahkan atau memperbarui baris tanggal ini di file Excel.
++                </span>
++              </div>
++
++              {/* Input Skor Kesehatan */}
++              <div className="flex flex-col gap-1.5">
++                <div className="flex justify-between items-center">
++                  <label className="text-xs font-bold text-slate-500 uppercase flex items-center gap-1.5">
++                    <FileText size={14} className="text-slate-400" />
++                    Skor Kesehatan Alat (%)
++                  </label>
++                  <span className={`text-sm font-bold px-2 py-0.5 rounded ${
++                    score >= 96 ? "text-green-600 bg-green-50" : score >= 90 ? "text-yellow-600 bg-yellow-50" : "text-red-600 bg-red-50"
++                  }`}>{score}%</span>
++                </div>
++                <input 
++                  type="range"
++                  min="0"
++                  max="100"
++                  value={score}
++                  onChange={(e) => setScore(Number(e.target.value))}
++                  className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-[#2563EB]"
++                />
++                <div className="flex justify-between text-[10px] text-slate-400">
++                  <span className="font-semibold text-red-500">0% (Kritis)</span>
++                  <span className="font-semibold text-yellow-600">90% (Peringatan)</span>
++                  <span className="font-semibold text-green-600">96% (Sehat)</span>
++                </div>
++              </div>
++
++              {/* Input Keterangan Permasalahan */}
++              <div className="flex flex-col gap-1.5">
++                <label className="text-xs font-bold text-slate-500 uppercase">
++                  Detail Keterangan Permasalahan
++                </label>
++                <textarea 
++                  rows={3}
++                  value={description}
++                  onChange={(e) => setDescription(e.target.value)}
++                  placeholder="Contoh: Terdeteksi motor belt mengalami getaran tinggi saat pemindaian..."
++                  className="w-full px-3 py-2 border border-slate-200 rounded-lg text-sm text-slate-700 outline-none focus:border-[#2563EB] transition-colors resize-none placeholder-slate-400"
++                />
++                <span className="text-[10px] text-slate-400">
++                  Akan dimasukkan ke kolom keterangan kategori {data.category} dalam baris Excel.
++                </span>
++              </div>
++
++              {/* Submit Buttons */}
++              <div className="flex gap-3 pt-3 border-t border-slate-100 mt-2">
++                <button 
++                  type="button" 
++                  onClick={() => { setIsModalOpen(false); setStatusMessage(null); }}
++                  className="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-600 font-semibold py-2.5 rounded-lg text-sm cursor-pointer transition-colors"
++                >
++                  Batal
++                </button>
++                <button 
++                  type="submit"
++                  disabled={submitting}
++                  className="flex-1 bg-[#2563EB] hover:bg-[#1d4ed8] text-white font-bold py-2.5 rounded-lg text-sm cursor-pointer transition-colors shadow-sm disabled:opacity-50 disabled:cursor-not-allowed"
++                >
++                  {submitting ? "Menyimpan..." : "Simpan Laporan"}
++                </button>
++              </div>
++            </form>
++          </div>
++        </div>
++      )}
+     </div>
+   );
+ }
