@@ -20,7 +20,7 @@ export function DashboardCharts() {
       {/* Line Chart */}
       <div className="col-span-2 rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
         <h2 className="mb-6 text-lg font-bold text-[#0F172A]">
-          Tren Kesehatan Bulanan (Jan-Agt)
+          Tren Kesehatan Bulanan
         </h2>
         <div className="h-[250px] w-full">
           <ResponsiveContainer width="100%" height="100%">
