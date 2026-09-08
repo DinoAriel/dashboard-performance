@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { 
@@ -35,12 +36,13 @@ export function Sidebar() {
     <div className="flex h-screen w-64 flex-col bg-[#2A313C] text-white">
       {/* Top Logo Area */}
       <div className="flex items-center gap-3 px-6 py-8">
-        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#3B82F6] text-white">
-          <Plane size={24} />
-        </div>
-        <div className="flex flex-col">
-          <span className="text-lg font-bold leading-tight">SkyPort Ops</span>
-          <span className="text-xs text-slate-400">Facility Management</span>
+        <div className="relative w-48 h-16 bg-white rounded-md p-2 flex items-center justify-center overflow-hidden w-full">
+          <Image 
+            src="/Juanda_International_Airport_Logo.png" 
+            alt="Juanda International Airport Logo" 
+            fill
+            className="object-contain p-1" 
+          />
         </div>
       </div>
 
