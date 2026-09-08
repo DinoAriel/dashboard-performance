@@ -6,9 +6,10 @@ import { EquipmentTable } from "@/components/EquipmentTable";
 import { EquipmentDetailPanel } from "@/components/EquipmentDetailPanel";
 
 export default function EquipmentPage() {
-  // Default to ELT-02 to match the initial screenshot state
-  const [selectedEquipmentId, setSelectedEquipmentId] = useState<string | null>("ELT-02");
+  // Default to null so the panel does not open automatically
+  const [selectedEquipmentId, setSelectedEquipmentId] = useState<string | null>(null);
   const [equipmentList, setEquipmentList] = useState<any[]>([]);
+  const [alertLogs, setAlertLogs] = useState<any[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [isLoading, setIsLoading] = useState(true);
 
@@ -17,6 +18,7 @@ export default function EquipmentPage() {
       .then((res) => res.json())
       .then((data) => {
         setEquipmentList(data.equipmentList || []);
+        setAlertLogs(data.alertLogs || []);
       })
       .catch((err) => console.error("Error fetching equipment list:", err))
       .finally(() => setIsLoading(false));
@@ -33,6 +35,7 @@ export default function EquipmentPage() {
         title="Inventaris Fasilitas" 
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
+        alertLogs={alertLogs}
       />
       
       <div className="flex flex-1 overflow-hidden relative">

@@ -190,11 +190,16 @@ export function getDashboardData(): DashboardOutput {
       let rawVal = latestRow.data[eq.columnIndex];
       let score = 100;
       if (rawVal !== null && rawVal !== undefined) {
+        let numVal: number;
         if (typeof rawVal === "number") {
-          score = Math.round(rawVal * 100);
+          numVal = rawVal;
         } else {
-          const parsed = parseFloat(rawVal);
-          if (!isNaN(parsed)) score = Math.round(parsed * 100);
+          numVal = parseFloat(rawVal);
+        }
+        if (!isNaN(numVal)) {
+          // Jika nilai > 1, user memasukkan langsung sebagai persen (misal: 40, 60, 90)
+          // Jika nilai <= 1, nilai dalam bentuk desimal (misal: 0.40, 0.60, 0.90)
+          score = numVal > 1 ? Math.round(numVal) : Math.round(numVal * 100);
         }
       }
 
@@ -325,10 +330,12 @@ export function getDashboardData(): DashboardOutput {
         let rawVal = row.data[eq.columnIndex];
         let val = 1.0;
         if (rawVal !== null && rawVal !== undefined) {
-          if (typeof rawVal === "number") val = rawVal;
-          else {
-            const parsed = parseFloat(rawVal);
-            if (!isNaN(parsed)) val = parsed;
+          let numVal: number;
+          if (typeof rawVal === "number") numVal = rawVal;
+          else numVal = parseFloat(rawVal);
+          if (!isNaN(numVal)) {
+            // Normalisasi ke skala 0-1
+            val = numVal > 1 ? numVal / 100 : numVal;
           }
         }
         rowSum += val;
@@ -680,11 +687,16 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
     let rawVal = latestRow.data[eq.columnIndex];
     let score = 100;
     if (rawVal !== null && rawVal !== undefined) {
+      let numVal: number;
       if (typeof rawVal === "number") {
-        score = Math.round(rawVal * 100);
+        numVal = rawVal;
       } else {
-        const parsed = parseFloat(rawVal);
-        if (!isNaN(parsed)) score = Math.round(parsed * 100);
+        numVal = parseFloat(rawVal);
+      }
+      if (!isNaN(numVal)) {
+        // Jika nilai > 1, user memasukkan langsung sebagai persen (misal: 40, 60, 90)
+        // Jika nilai <= 1, nilai dalam bentuk desimal (misal: 0.40, 0.60, 0.90)
+        score = numVal > 1 ? Math.round(numVal) : Math.round(numVal * 100);
       }
     }
 
@@ -809,10 +821,12 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
       let rawVal = row.data[eq.columnIndex];
       let val = 1.0;
       if (rawVal !== null && rawVal !== undefined) {
-        if (typeof rawVal === "number") val = rawVal;
-        else {
-          const parsed = parseFloat(rawVal);
-          if (!isNaN(parsed)) val = parsed;
+        let numVal: number;
+        if (typeof rawVal === "number") numVal = rawVal;
+        else numVal = parseFloat(rawVal);
+        if (!isNaN(numVal)) {
+          // Normalisasi ke skala 0-1
+          val = numVal > 1 ? numVal / 100 : numVal;
         }
       }
       rowSum += val;

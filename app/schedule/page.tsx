@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ScheduleTopbar } from "@/components/ScheduleTopbar";
 import { ScheduleHeader } from "@/components/ScheduleHeader";
 import { CalendarGrid } from "@/components/CalendarGrid";
@@ -11,6 +11,14 @@ import { calendarEvents } from "@/lib/mock-data";
 export default function SchedulePage() {
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
   const [events, setEvents] = useState(calendarEvents);
+  const [alertLogs, setAlertLogs] = useState<any[]>([]);
+
+  useEffect(() => {
+    fetch("/api/dashboard", { cache: "no-store" })
+      .then((res) => res.json())
+      .then((data) => setAlertLogs(data.alertLogs || []))
+      .catch(() => {});
+  }, []);
   
   // Confirmation Modal State
   const [eventToDelete, setEventToDelete] = useState<{date: string, title: string} | null>(null);
@@ -39,7 +47,7 @@ export default function SchedulePage() {
 
   return (
     <div className="flex flex-col h-full bg-[#F8FAFC]">
-      <ScheduleTopbar />
+      <ScheduleTopbar alertLogs={alertLogs} />
       <ScheduleHeader 
         onOpenAddModal={() => setIsAddModalOpen(true)} 
         selectedMonth={selectedMonth}

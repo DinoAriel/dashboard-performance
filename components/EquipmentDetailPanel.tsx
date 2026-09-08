@@ -146,7 +146,7 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
           className="w-full flex items-center justify-center gap-2 bg-[#B91C1C] text-white font-semibold py-2.5 rounded-lg hover:bg-[#991b1b] transition-colors shadow-sm cursor-pointer select-none"
         >
           <Wrench size={18} />
-          Buat Tiket Perbaikan
+          Catat Laporan Performa
         </button>
 
         <button 
@@ -164,8 +164,8 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
         <div className="fixed bottom-6 right-6 bg-slate-900 border border-slate-800 text-white px-5 py-3 rounded-lg shadow-xl z-50 flex items-center gap-3 animate-in fade-in slide-in-from-bottom-5 duration-300">
           <CheckCircle className="text-green-500" size={20} />
           <div className="flex flex-col">
-            <span className="text-sm font-semibold">Tiket Berhasil Dibuat</span>
-            <span className="text-xs text-slate-400">Peralatan {data.name} telah terdaftar untuk pengecekan.</span>
+            <span className="text-sm font-semibold">Laporan Berhasil Disimpan</span>
+            <span className="text-xs text-slate-400">Peralatan {data.name} telah terdaftar untuk diperbarui.</span>
           </div>
         </div>
       )}
@@ -178,7 +178,7 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
             <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-slate-50/50">
               <div className="flex items-center gap-2">
                 <Wrench className="text-[#B91C1C]" size={20} />
-                <h3 className="font-bold text-[#0F172A]">Buat Tiket Perbaikan</h3>
+                <h3 className="font-bold text-[#0F172A]">Catat Laporan Performa</h3>
               </div>
               <button 
                 onClick={() => setIsTicketModalOpen(false)}
@@ -217,7 +217,7 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
                     }, 1500);
                   } else {
                     const errData = await res.json();
-                    alert("Gagal menyimpan tiket: " + (errData.error || "Undeclared error"));
+                    alert("Gagal menyimpan laporan: " + (errData.error || "Undeclared error"));
                   }
                 } catch (err: any) {
                   alert("Gagal tersambung ke server: " + err.message);
@@ -428,7 +428,7 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
                   type="submit"
                   className="px-4 py-2 text-sm font-semibold text-white bg-[#B91C1C] hover:bg-[#991b1b] rounded-lg shadow-sm cursor-pointer"
                 >
-                  Kirim Tiket
+                  Simpan Laporan
                 </button>
               </div>
             </form>

@@ -131,24 +131,13 @@ export function EquipmentTable({ selectedId, onSelect, equipment, searchQuery = 
           </div>
         </div>
 
-        <button 
-          onClick={() => {
-            setSelectedCategory("semua");
-            setSelectedStatus("semua");
-            setIsCategoryOpen(false);
-            setIsStatusOpen(false);
-          }}
-          title="Reset Filters"
-          className="p-2 border border-slate-200 rounded-md text-slate-500 hover:bg-slate-50 cursor-pointer active:bg-slate-100"
-        >
-          <Filter size={18} />
-        </button>
+
       </div>
 
       {/* Table */}
       <div className="flex-1 overflow-auto">
         <table className="w-full text-left text-sm whitespace-nowrap">
-          <thead className="bg-slate-50/50 sticky top-0 z-10 border-b border-slate-200">
+          <thead className="bg-slate-50 sticky top-0 z-10 border-b border-slate-200">
             <tr>
               <th className="px-6 py-3 font-semibold text-slate-500 text-[11px] tracking-wider uppercase">ID Alat</th>
               <th className="px-6 py-3 font-semibold text-slate-500 text-[11px] tracking-wider uppercase">Nama Fasilitas</th>

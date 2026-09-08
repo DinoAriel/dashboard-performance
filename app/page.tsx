@@ -10,11 +10,11 @@ export const dynamic = "force-dynamic";
 export default async function Home() {
 
   const data = await getDashboardDataAsync();
-  const { kpiData, monthlyHealthData, statusDistributionData, equipmentList, categories } = data;
+  const { kpiData, monthlyHealthData, statusDistributionData, equipmentList, categories, alertLogs } = data;
 
   return (
     <div className="flex flex-col h-full overflow-y-auto bg-[#F8FAFC] pb-10">
-      <Topbar title="Overview Performa Fasilitas" />
+      <Topbar title="Overview Performa Fasilitas" alertLogs={alertLogs} />
       
       <div className="px-8 mt-6">
         {/* KPI Cards */}
