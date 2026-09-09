@@ -137,12 +137,14 @@ export interface DashboardOutput {
   categories: { id: string; label: string; count: number }[];
   monthlyHealthData: { name: string; value: number }[];
   statusDistributionData: { name: string; value: number; fill: string }[];
+  targetPercent: number;
   equipmentList: {
     id: string;
     name: string;
     category: string;
     location: string;
     score: number;
+    scoreChange?: number;
     status: "SEHAT" | "PERINGATAN" | "KRITIS";
   }[];
   alertLogs: {
@@ -176,14 +178,18 @@ export function getDashboardData(): DashboardOutput {
     let dynamicTarget = 90; // fallback default
     const rawTarget = latestRow.data[4];
     if (rawTarget !== null && rawTarget !== undefined) {
-      if (typeof rawTarget === "number") dynamicTarget = Math.round(rawTarget * 100);
-      else {
-         const p = parseFloat(rawTarget);
-         if (!isNaN(p)) dynamicTarget = Math.round(p * 100);
+      let numTarget: number;
+      if (typeof rawTarget === "number") numTarget = rawTarget;
+      else numTarget = parseFloat(String(rawTarget).replace('%', '').trim());
+      
+      if (!isNaN(numTarget)) {
+        // Jika nilai <= 1 berarti desimal (0.90) → kalikan 100
+        // Jika nilai > 1 berarti sudah persen (90) → gunakan langsung
+        dynamicTarget = numTarget <= 1 ? Math.round(numTarget * 100) : Math.round(numTarget);
       }
-      if (dynamicTarget < 1) dynamicTarget = dynamicTarget * 100; // antisipasi jika bernilai 0.90 dsb
+      // Pastikan target dalam rentang wajar 1-100
+      if (dynamicTarget < 1 || dynamicTarget > 100) dynamicTarget = 90;
     }
-    if (dynamicTarget <= 1) dynamicTarget = 90; // Fallback jika parsing salah
 
     // Parse Equipment & Skor saat ini
     const equipmentList = EQUIPMENT_SCHEMAS.map(eq => {
@@ -206,7 +212,8 @@ export function getDashboardData(): DashboardOutput {
       let status: "SEHAT" | "PERINGATAN" | "KRITIS" = "SEHAT";
       if (score < 70) {
         status = "KRITIS";
-      } else if (score < dynamicTarget) {
+      } else if (score <= dynamicTarget) {
+        // score <= target → PERINGATAN (harus > target untuk SEHAT)
         status = "PERINGATAN";
       }
 
@@ -376,6 +383,7 @@ export function getDashboardData(): DashboardOutput {
         totalInventory: totalEquip,
         newAlerts: alertLogs.length
       },
+      targetPercent: dynamicTarget,
       categories,
       monthlyHealthData,
       statusDistributionData,
@@ -414,9 +422,11 @@ export function getDashboardData(): DashboardOutput {
         name: eq.displayName,
         category: eq.category,
         location: eq.location,
-        score: 100, // Dummy score
+        score: 100,
+        scoreChange: 0,
         status: "SEHAT" as const
       })),
+      targetPercent: 90,
       alertLogs: [],
       maintenanceLogs: []
     };
@@ -620,7 +630,7 @@ export async function parseExcelDataAsync(): Promise<{ excelSerial: number; jsDa
   if (sheetId) {
     try {
       const url = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=xlsx`;
-      const response = await fetch(url, { cache: "no-store" });
+      const response = await fetch(url, { next: { revalidate: 60 } });
       if (response.ok) {
         const arrayBuffer = await response.arrayBuffer();
         const fileBuffer = Buffer.from(arrayBuffer);
@@ -674,15 +684,21 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
   let dynamicTarget = 90;
   const rawTarget = latestRow.data[4];
   if (rawTarget !== null && rawTarget !== undefined) {
-    if (typeof rawTarget === "number") dynamicTarget = Math.round(rawTarget * 100);
-    else {
-       const p = parseFloat(rawTarget);
-       if (!isNaN(p)) dynamicTarget = Math.round(p * 100);
+    let numTarget: number;
+    if (typeof rawTarget === "number") numTarget = rawTarget;
+    else numTarget = parseFloat(String(rawTarget).replace('%', '').trim());
+    
+    if (!isNaN(numTarget)) {
+      // Jika nilai <= 1 berarti desimal (0.90) → kalikan 100
+      // Jika nilai > 1 berarti sudah persen (90) → gunakan langsung
+      dynamicTarget = numTarget <= 1 ? Math.round(numTarget * 100) : Math.round(numTarget);
     }
-    if (dynamicTarget < 1) dynamicTarget = dynamicTarget * 100;
+    // Pastikan target dalam rentang wajar 1-100
+    if (dynamicTarget < 1 || dynamicTarget > 100) dynamicTarget = 90;
   }
-  if (dynamicTarget <= 1) dynamicTarget = 90;
   
+  const previousRow = rows.length > 1 ? rows[rows.length - 2] : null;
+
   const equipmentList = EQUIPMENT_SCHEMAS.map(eq => {
     let rawVal = latestRow.data[eq.columnIndex];
     let score = 100;
@@ -694,16 +710,25 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
         numVal = parseFloat(rawVal);
       }
       if (!isNaN(numVal)) {
-        // Jika nilai > 1, user memasukkan langsung sebagai persen (misal: 40, 60, 90)
-        // Jika nilai <= 1, nilai dalam bentuk desimal (misal: 0.40, 0.60, 0.90)
         score = numVal > 1 ? Math.round(numVal) : Math.round(numVal * 100);
       }
     }
 
+    let previousScore = score;
+    if (previousRow) {
+      let prevRaw = previousRow.data[eq.columnIndex];
+      if (prevRaw !== null && prevRaw !== undefined) {
+        let prevNum = typeof prevRaw === "number" ? prevRaw : parseFloat(prevRaw);
+        if (!isNaN(prevNum)) previousScore = prevNum > 1 ? Math.round(prevNum) : Math.round(prevNum * 100);
+      }
+    }
+    let scoreChange = score - previousScore;
+
     let status: "SEHAT" | "PERINGATAN" | "KRITIS" = "SEHAT";
     if (score < 70) {
       status = "KRITIS";
-    } else if (score < dynamicTarget) {
+    } else if (score <= dynamicTarget) {
+      // score <= target → PERINGATAN (harus > target untuk SEHAT)
       status = "PERINGATAN";
     }
 
@@ -713,6 +738,7 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
       category: eq.category,
       location: eq.location,
       score,
+      scoreChange,
       status
     };
   });
@@ -865,6 +891,7 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
       totalInventory: equipmentList.length,
       newAlerts: alertLogs.length
     },
+    targetPercent: dynamicTarget,
     categories,
     monthlyHealthData,
     statusDistributionData,

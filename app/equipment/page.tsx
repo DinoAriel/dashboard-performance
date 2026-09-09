@@ -10,6 +10,7 @@ export default function EquipmentPage() {
   const [selectedEquipmentId, setSelectedEquipmentId] = useState<string | null>(null);
   const [equipmentList, setEquipmentList] = useState<any[]>([]);
   const [alertLogs, setAlertLogs] = useState<any[]>([]);
+  const [targetPercent, setTargetPercent] = useState<number>(90);
   const [searchQuery, setSearchQuery] = useState("");
   const [isLoading, setIsLoading] = useState(true);
 
@@ -19,6 +20,7 @@ export default function EquipmentPage() {
       .then((data) => {
         setEquipmentList(data.equipmentList || []);
         setAlertLogs(data.alertLogs || []);
+        if (data.targetPercent) setTargetPercent(data.targetPercent);
       })
       .catch((err) => console.error("Error fetching equipment list:", err))
       .finally(() => setIsLoading(false));
@@ -59,6 +61,7 @@ export default function EquipmentPage() {
           <EquipmentDetailPanel 
             equipmentId={selectedEquipmentId} 
             liveEquipment={selectedEquipment}
+            excelTarget={targetPercent}
             onClose={() => setSelectedEquipmentId(null)} 
           />
         </div>

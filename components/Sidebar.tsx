@@ -33,10 +33,10 @@ export function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <div className="flex h-screen w-64 flex-col bg-[#2A313C] text-white">
+    <div className="flex h-screen w-64 flex-col bg-white border-r border-slate-200">
       {/* Top Logo Area */}
-      <div className="flex items-center gap-3 px-6 py-8">
-        <div className="relative w-48 h-16 bg-white rounded-md p-2 flex items-center justify-center overflow-hidden w-full">
+      <div className="flex items-center justify-center px-6 py-8">
+        <div className="relative w-48 h-16 rounded-md flex items-center justify-center overflow-hidden w-full">
           <Image 
             src="/Juanda_International_Airport_Logo.png" 
             alt="Juanda International Airport Logo" 
@@ -58,11 +58,11 @@ export function Sidebar() {
                 className={cn(
                   "flex items-center gap-3 rounded-r-lg px-4 py-3 text-sm font-medium transition-all mr-2",
                   isActive
-                    ? "bg-[#3B82F6] text-white border-l-4 border-[#3B82F6] font-semibold"
-                    : "text-slate-300 hover:bg-slate-800/50 hover:text-white border-l-4 border-transparent"
+                    ? "bg-blue-50 text-blue-700 border-l-4 border-blue-600 font-semibold"
+                    : "text-slate-600 hover:bg-slate-50 hover:text-slate-900 border-l-4 border-transparent"
                 )}
               >
-                <item.icon size={20} className={isActive ? "text-white" : "text-slate-400"} />
+                <item.icon size={20} className={isActive ? "text-blue-700" : "text-slate-400"} />
                 {item.name}
               </Link>
             );
@@ -79,13 +79,13 @@ export function Sidebar() {
               key={item.name}
               href={item.href}
               className={cn(
-                "flex items-center gap-3 rounded-lg px-4 py-2 text-sm font-medium transition-colors",
+                "flex items-center gap-3 rounded-lg px-4 py-2 text-sm font-medium transition-colors mx-2",
                 isActive
-                  ? "text-white bg-slate-800"
-                  : "text-slate-400 hover:bg-slate-800/50 hover:text-white"
+                  ? "text-blue-700 bg-blue-50"
+                  : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
               )}
             >
-              <item.icon size={20} />
+              <item.icon size={20} className={isActive ? "text-blue-700" : "text-slate-400"} />
               {item.name}
             </Link>
           );

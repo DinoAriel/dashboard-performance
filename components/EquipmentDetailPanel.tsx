@@ -3,19 +3,21 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
-import { X, AlertTriangle, TrendingDown, Wrench, CheckCircle } from "lucide-react";
+import { X, AlertTriangle, TrendingDown, TrendingUp, Minus, Wrench, CheckCircle } from "lucide-react";
 import { equipmentDetail as mockEquipmentDetail } from "@/lib/mock-data";
 import { cn } from "@/lib/utils";
 
 interface EquipmentDetailPanelProps {
   equipmentId: string | null;
   onClose: () => void;
+  excelTarget?: number;
   liveEquipment?: {
     id: string;
     name: string;
     category: string;
     location: string;
     score: number;
+    scoreChange?: number;
     status: "SEHAT" | "PERINGATAN" | "KRITIS";
   };
 }
@@ -50,7 +52,7 @@ const EQUIPMENT_SPECS_CLIENT: Record<string, { brand: string; model: string; ins
   "ELT-12": { brand: "Scarecrow Group", model: "BIRD-D-100", installation: "15 Jan 2022" }
 };
 
-export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: EquipmentDetailPanelProps) {
+export function EquipmentDetailPanel({ equipmentId, onClose, excelTarget = 90, liveEquipment }: EquipmentDetailPanelProps) {
   const router = useRouter();
   const [isTicketModalOpen, setIsTicketModalOpen] = useState(false);
   const [ticketDescription, setTicketDescription] = useState("");
@@ -60,7 +62,7 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
   // New States for Dynamic Excel Row Configuration and Score Setting
   const [ticketDate, setTicketDate] = useState("");
   const [ticketScore, setTicketScore] = useState<number>(100);
-  const [ticketTarget, setTicketTarget] = useState<number>(90);
+  const [ticketTarget, setTicketTarget] = useState<number>(excelTarget);
   const [ticketRegion, setTicketRegion] = useState("Region 4");
   const [ticketLocation, setTicketLocation] = useState("Juanda Airport Surabaya");
   const [ticketLetterCode, setTicketLetterCode] = useState("SUB");
@@ -68,6 +70,13 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
 
 
   if (!equipmentId) return null;
+
+  const liveScoreChange = liveEquipment?.scoreChange || 0;
+  const isPositive = liveScoreChange > 0;
+  const isNegative = liveScoreChange < 0;
+  const TrendIcon = isPositive ? TrendingUp : (isNegative ? TrendingDown : Minus);
+  const trendColor = isPositive ? "text-green-500" : (isNegative ? "text-red-500" : "text-slate-400");
+  const trendText = isPositive ? `+${liveScoreChange}%` : (isNegative ? `${liveScoreChange}%` : "0%");
 
   // Fallback to mock data if live details are not provided
   const data = liveEquipment ? {
@@ -77,7 +86,6 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
     location: liveEquipment.location,
     score: liveEquipment.score,
     status: liveEquipment.status,
-    scoreChange: liveEquipment.score < 96 ? "-2.4%" : "+0.5%",
     alertMessage: liveEquipment.status === 'KRITIS' ? "Peralatan membutuhkan pengecekan dan perbaikan segera." : ""
   } : mockEquipmentDetail;
 
@@ -116,9 +124,9 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
           </h3>
           <div className="border border-slate-200 bg-white rounded-lg p-6 flex items-end justify-between shadow-sm">
             <span className="text-4xl font-bold text-[#0F172A]">{data.score}%</span>
-            <div className="flex items-center gap-1 text-red-500 font-medium text-sm mb-1">
-              <TrendingDown size={16} />
-              {data.scoreChange}
+            <div className={`flex items-center gap-1 font-medium text-sm mb-1 ${liveEquipment ? trendColor : "text-red-500"}`}>
+              {liveEquipment ? <TrendIcon size={16} /> : <TrendingDown size={16} />}
+              {liveEquipment ? trendText : mockEquipmentDetail.scoreChange}
             </div>
           </div>
         </div>
@@ -134,7 +142,7 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
             const d = String(today.getDate()).padStart(2, '0');
             setTicketDate(`${y}-${m}-${d}`);
             setTicketScore(data.score ?? 100);
-            setTicketTarget(90);
+            setTicketTarget(excelTarget);
             setTicketRegion("Region 4");
             setTicketLocation("Juanda Airport Surabaya");
             setTicketLetterCode("SUB");
@@ -302,8 +310,8 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
                     onChange={(e) => {
                       const val = Number(e.target.value);
                       setTicketScore(val);
-                      if (val < 90) setTicketSeverity("KRITIS");
-                      else if (val < 96) setTicketSeverity("PERINGATAN");
+                      if (val < 70) setTicketSeverity("KRITIS");
+                      else if (val < ticketTarget) setTicketSeverity("PERINGATAN");
                       else setTicketSeverity("SEHAT");
                     }}
                     className="w-full h-10 px-3 border border-slate-200 rounded-lg text-slate-800 outline-none text-sm focus:border-[#B91C1C] focus:ring-1 focus:ring-[#B91C1C]"
@@ -320,12 +328,12 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
                   onChange={(e) => {
                     const newStatus = e.target.value;
                     setTicketSeverity(newStatus);
-                    if (newStatus === "SEHAT" && (ticketScore < 96 || ticketScore > 100)) {
-                      setTicketScore(100);
-                    } else if (newStatus === "PERINGATAN" && (ticketScore < 90 || ticketScore >= 96)) {
-                      setTicketScore(93);
-                    } else if (newStatus === "KRITIS" && ticketScore >= 90) {
-                      setTicketScore(85);
+                    if (newStatus === "SEHAT" && (ticketScore < ticketTarget || ticketScore > 100)) {
+                      setTicketScore(Math.max(ticketScore, ticketTarget));
+                    } else if (newStatus === "PERINGATAN" && (ticketScore < 70 || ticketScore >= ticketTarget)) {
+                      setTicketScore(ticketTarget - 1);
+                    } else if (newStatus === "KRITIS" && ticketScore >= 70) {
+                      setTicketScore(65);
                     }
                   }}
                   className="w-full h-10 px-3 border border-slate-250 rounded-lg text-slate-800 bg-white outline-none text-sm focus:border-[#B91C1C] focus:ring-1 focus:ring-[#B91C1C] cursor-pointer"
@@ -394,7 +402,14 @@ export function EquipmentDetailPanel({ equipmentId, onClose, liveEquipment }: Eq
                           min="0"
                           max="100"
                           value={ticketTarget}
-                          onChange={(e) => setTicketTarget(Number(e.target.value))}
+                          onChange={(e) => {
+                            const newTarget = Number(e.target.value);
+                            setTicketTarget(newTarget);
+                            // Update severity automatically when target changes
+                            if (ticketScore < 70) setTicketSeverity("KRITIS");
+                            else if (ticketScore < newTarget) setTicketSeverity("PERINGATAN");
+                            else setTicketSeverity("SEHAT");
+                          }}
                           className="w-full h-9 px-2.5 border border-slate-200 rounded-md bg-white text-slate-800 outline-none text-xs focus:border-[#B91C1C] focus:ring-1 focus:ring-[#B91C1C]"
                         />
                       </div>
