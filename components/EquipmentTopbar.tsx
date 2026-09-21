@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Bell, HelpCircle, Search, AlertTriangle, AlertCircle, Info, X } from "lucide-react";
+import { Bell, HelpCircle, Search, AlertTriangle, AlertCircle, Info, X, BookOpenText } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface EquipmentTopbarProps {
@@ -105,9 +105,10 @@ export function EquipmentTopbar({ title, searchQuery, onSearchChange, onAddClick
                 setShowHelp(!showHelp);
                 setShowNotifications(false);
               }}
-              className="p-2 text-slate-500 hover:text-slate-700 transition-colors cursor-pointer"
+              className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-50 text-blue-600 hover:bg-blue-100 hover:-translate-y-0.5 transition-all cursor-pointer border border-blue-100 shadow-sm"
+              title="Panduan Dashboard"
             >
-              <HelpCircle size={20} />
+              <HelpCircle size={18} />
             </button>
             
             {showHelp && (

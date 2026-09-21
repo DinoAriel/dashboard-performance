@@ -58,10 +58,12 @@ export function EquipmentDetailPanel({ equipmentId, onClose, excelTarget = 90, l
   const [ticketDescription, setTicketDescription] = useState("");
   const [ticketSeverity, setTicketSeverity] = useState("KRITIS");
   const [showToast, setShowToast] = useState(false);
+  const [errorToast, setErrorToast] = useState<string | null>(null);
 
   // New States for Dynamic Excel Row Configuration and Score Setting
   const [ticketDate, setTicketDate] = useState("");
   const [ticketScore, setTicketScore] = useState<number>(100);
+  const [ticketScoreInput, setTicketScoreInput] = useState<string>("100");
   const [ticketTarget, setTicketTarget] = useState<number>(excelTarget);
   const [ticketRegion, setTicketRegion] = useState("Region 4");
   const [ticketLocation, setTicketLocation] = useState("Juanda Airport Surabaya");
@@ -140,8 +142,10 @@ export function EquipmentDetailPanel({ equipmentId, onClose, excelTarget = 90, l
             const y = today.getFullYear();
             const m = String(today.getMonth() + 1).padStart(2, '0');
             const d = String(today.getDate()).padStart(2, '0');
+            const initialScore = data.score ?? 100;
             setTicketDate(`${y}-${m}-${d}`);
-            setTicketScore(data.score ?? 100);
+            setTicketScore(initialScore);
+            setTicketScoreInput(String(initialScore));
             setTicketTarget(excelTarget);
             setTicketRegion("Region 4");
             setTicketLocation("Juanda Airport Surabaya");
@@ -166,6 +170,17 @@ export function EquipmentDetailPanel({ equipmentId, onClose, excelTarget = 90, l
           Lihat Log Lengkap
         </button>
       </div>
+
+      {/* Error Toast Notification */}
+      {errorToast && (
+        <div className="fixed bottom-6 right-6 bg-red-700 border border-red-900 text-white px-5 py-3 rounded-lg shadow-xl z-50 flex items-center gap-3 animate-in fade-in slide-in-from-bottom-5 duration-300">
+          <AlertTriangle className="text-red-200 shrink-0" size={20} />
+          <div className="flex flex-col">
+            <span className="text-sm font-semibold">Gagal Menyimpan</span>
+            <span className="text-xs text-red-200">{errorToast}</span>
+          </div>
+        </div>
+      )}
 
       {/* Toast Notification */}
       {showToast && (
@@ -225,10 +240,12 @@ export function EquipmentDetailPanel({ equipmentId, onClose, excelTarget = 90, l
                     }, 1500);
                   } else {
                     const errData = await res.json();
-                    alert("Gagal menyimpan laporan: " + (errData.error || "Undeclared error"));
+                    setErrorToast("Gagal menyimpan laporan: " + (errData.error || "Undisclosed error"));
+                    setTimeout(() => setErrorToast(null), 4000);
                   }
                 } catch (err: any) {
-                  alert("Gagal tersambung ke server: " + err.message);
+                  setErrorToast("Gagal tersambung ke server: " + err.message);
+                  setTimeout(() => setErrorToast(null), 4000);
                 }
               }}
               className="p-6 flex flex-col gap-4"
@@ -302,17 +319,26 @@ export function EquipmentDetailPanel({ equipmentId, onClose, excelTarget = 90, l
                     Skor Performa (%)
                   </label>
                   <input 
-                    type="number" 
+                    type="text"
+                    inputMode="numeric"
                     required
-                    min="0"
-                    max="100"
-                    value={ticketScore}
+                    value={ticketScoreInput}
                     onChange={(e) => {
-                      const val = Number(e.target.value);
-                      setTicketScore(val);
-                      if (val < 70) setTicketSeverity("KRITIS");
-                      else if (val < ticketTarget) setTicketSeverity("PERINGATAN");
+                      const raw = e.target.value.replace(/[^0-9]/g, "");
+                      const stripped = raw === "" ? "" : String(parseInt(raw, 10));
+                      const clamped = stripped === "" ? "" : String(Math.min(100, parseInt(stripped, 10)));
+                      setTicketScoreInput(clamped);
+                      const numVal = clamped === "" ? 0 : parseInt(clamped, 10);
+                      setTicketScore(numVal);
+                      if (numVal < 70) setTicketSeverity("KRITIS");
+                      else if (numVal < ticketTarget) setTicketSeverity("PERINGATAN");
                       else setTicketSeverity("SEHAT");
+                    }}
+                    onBlur={() => {
+                      const numVal = ticketScoreInput === "" ? 0 : parseInt(ticketScoreInput, 10);
+                      const safe = isNaN(numVal) ? 0 : Math.max(0, Math.min(100, numVal));
+                      setTicketScore(safe);
+                      setTicketScoreInput(String(safe));
                     }}
                     className="w-full h-10 px-3 border border-slate-200 rounded-lg text-slate-800 outline-none text-sm focus:border-[#B91C1C] focus:ring-1 focus:ring-[#B91C1C]"
                   />

@@ -41,6 +41,9 @@ export function Sidebar() {
             src="/Juanda_International_Airport_Logo.png" 
             alt="Juanda International Airport Logo" 
             fill
+            sizes="(max-width: 768px) 100vw, 192px"
+            priority={true}
+            loading="eager"
             className="object-contain p-1" 
           />
         </div>

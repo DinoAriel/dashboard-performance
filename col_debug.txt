@@ -1,0 +1,77 @@
+=== HEADER ROW ===
+  Col 0 (A): O
+  Col 1 (B): REGION
+  Col 2 (C): LOCATION
+  Col 3 (D): LETTER CODE
+  Col 4 (E): TARGET
+  Col 5 (F): GENERATOR SET
+  Col 6 (G): PANEL TEGANGAN MENENGAH
+  Col 7 (H): PANEL TEGANGAN RENDAH
+  Col 8 (I): TRANSFORMATOR
+  Col 9 (J): UNINTERRUPTIBLE POWER SUPPLY (UPS)
+  Col 10 (K): AERONAUTICAL GROUND LIGHTING
+  Col 11 (L): KETERANGAN PERMASALAHAN ELEKTRIKAL
+  Col 12 (M):  SISTEM HVAC
+  Col 13 (N): WATER SUPPLY SYSTEM. STP DAN SISTEM PEMA
+  Col 14 (O): BAGGAGE HANDLING SYSTEM (BHS)
+  Col 15 (P): PASENGGER MOVING SYSTEM (PMS)
+  Col 16 (Q): GARBARATA
+  Col 17 (R): PKP-PK
+  Col 18 (S): A2B & KENDARAAN OPERASIONAL
+  Col 19 (T): GROUND SUPPORT SERVICE
+  Col 20 (U): KETERANGAN PERMASALAHAN MEKANIKAL
+  Col 21 (V): XRAY
+  Col 22 (W): WTMD
+  Col 23 (X): HHMD
+  Col 24 (Y): ETD
+  Col 25 (Z): CCTV
+  Col 26 (AA): BODY SCANNER
+  Col 27 (AB): ACCESS CONTROL
+  Col 28 (AC): FIRE ALARM SYSTEM
+  Col 29 (AD): RADIO COMMUNICATION
+  Col 30 (AE): FIDS
+  Col 31 (AF): PUBLIC ADRESSING SYSTEM
+  Col 32 (AG): BIRD DETERRENT
+  Col 33 (AH): KETERANGAN PERMASALAHAN ELEKTRONIKA
+  Col 34 (AI): (empty)
+  Col 35 (AJ): (empty)
+  Col 36 (AK): (empty)
+  Col 37 (AL): (empty)
+
+=== LAST 3 DATA ROWS ===
+--- Row 1265 ---
+--- Row 1266 ---
+--- Row 1267 ---
+  Col 0 (A): 46265
+  Col 1 (B): "Region 4"
+  Col 2 (C): "Juanda Airport Surabaya"
+  Col 3 (D): "SUB"
+  Col 4 (E): 0.9
+  Col 5 (F): 1
+  Col 6 (G): 1
+  Col 7 (H): 1
+  Col 8 (I): 1
+  Col 9 (J): 1
+  Col 10 (K): 1
+  Col 11 (L): "1. Tegangan tidak stabil"
+  Col 12 (M): 1
+  Col 13 (N): 1
+  Col 14 (O): 1
+  Col 15 (P): 1
+  Col 16 (Q): 1
+  Col 17 (R): 1
+  Col 18 (S): 1
+  Col 19 (T): 1
+  Col 21 (V): 1
+  Col 22 (W): 1
+  Col 23 (X): 1
+  Col 24 (Y): 1
+  Col 25 (Z): 1
+  Col 26 (AA): 1
+  Col 27 (AB): 1
+  Col 28 (AC): 1
+  Col 29 (AD): 1
+  Col 30 (AE): 1
+  Col 31 (AF): 1
+  Col 32 (AG): 1
+  Col 33 (AH): "1. Test log for WTMD device health checks"

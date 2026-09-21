@@ -1,0 +1,128 @@
+Max row: 391
+Range max row: 1267
+--- Row 386 ---
+  Col 0: 46194
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+--- Row 387 ---
+  Col 0: 46195
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+--- Row 388 ---
+  Col 0: 46196
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+--- Row 389 ---
+  Col 0: 46197
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+--- Row 390 ---
+  Col 0: 46198
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+--- Row 391 ---
+  Col 0: 46199
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage

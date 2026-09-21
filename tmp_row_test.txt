@@ -1,0 +1,36 @@
+Max row: 391
+Row 391 Col 5: 1 (number)
+Row 391 Col 6: 1 (number)
+Row 391 Col 7: 1 (number)
+Row 391 Col 8: 1 (number)
+Row 391 Col 9: 1 (number)
+Row 391 Col 10: 0.96 (number)
+Row 391 Col 11: missing
+Row 391 Col 12: 0.9285714285714286 (number)
+Row 391 Col 13: 0.9912 (number)
+Row 391 Col 14: 1 (number)
+Row 391 Col 15: 1 (number)
+Row 391 Col 16: 0.9583 (number)
+Row 391 Col 17: 0.9 (number)
+Row 391 Col 18: 0.9038 (number)
+Row 391 Col 19: missing
+Row 391 Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage (string)
+--- Previous Row ---
+Row 390 Col 5: 1 (number)
+Row 390 Col 6: 1 (number)
+Row 390 Col 7: 1 (number)
+Row 390 Col 8: 1 (number)
+Row 390 Col 9: 1 (number)
+Row 390 Col 10: 0.96 (number)
+Row 390 Col 11: missing
+Row 390 Col 12: 0.9285714285714286 (number)
+Row 390 Col 13: 0.9912 (number)
+Row 390 Col 14: 1 (number)
+Row 390 Col 15: 1 (number)
+Row 390 Col 16: 0.9583 (number)
+Row 390 Col 17: 0.9 (number)
+Row 390 Col 18: 0.9038 (number)
+Row 390 Col 19: missing
+Row 390 Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage (string)

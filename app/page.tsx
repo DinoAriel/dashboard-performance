@@ -18,7 +18,7 @@ export default async function Home() {
       
       <div className="px-8 mt-6">
         {/* KPI Cards */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 animate-fade-in-up">
           <KPICard 
             title="Skor Rata-rata" 
             value={`${kpiData.averageScore}%`}
@@ -41,23 +41,27 @@ export default async function Home() {
             iconColor="text-slate-500"
           />
           <KPICard 
-            title="Alert Baru" 
+            title="Alert Aktif" 
             value={`${kpiData.newAlerts} Peringatan`}
-            caption="Dalam 24 jam terakhir"
+            caption="Status saat ini (data terkini)"
             icon={AlertTriangle}
             iconColor="text-yellow-500"
           />
         </div>
 
-        <DashboardCharts 
-          monthlyHealth={monthlyHealthData} 
-          distribution={statusDistributionData}
-          totalEquipment={kpiData.totalInventory}
-        />
-        <DashboardTable 
-          facilities={equipmentList} 
-          categoriesList={categories}
-        />
+        <div className="animate-fade-in-up animate-delay-100">
+          <DashboardCharts 
+            monthlyHealth={monthlyHealthData} 
+            distribution={statusDistributionData}
+            totalEquipment={kpiData.totalInventory}
+          />
+        </div>
+        <div className="animate-fade-in-up animate-delay-200">
+          <DashboardTable 
+            facilities={equipmentList} 
+            categoriesList={categories}
+          />
+        </div>
       </div>
     </div>
   );

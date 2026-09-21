@@ -1,43 +1,40 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { alertLogs as mockAlertLogs } from "@/lib/mock-data";
-import { Clock, UserPlus, CheckCircle2, Calendar, TrendingDown, Thermometer, AlertCircle } from "lucide-react";
+import { Clock, UserPlus, CheckCircle2, Calendar, AlertCircle, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { AlertFilterState } from "@/app/alerts/page";
 
-export function AlertList() {
-  const [logs, setLogs] = useState<any[]>([]);
+interface AlertListProps {
+  alertLogs: any[];
+  isLoading: boolean;
+  filters?: AlertFilterState;
+}
+
+export function AlertList({ alertLogs, isLoading, filters }: AlertListProps) {
   const [facilityFilter, setFacilityFilter] = useState<string | null>(null);
+  const [selectedAlertNote, setSelectedAlertNote] = useState<string | null>(null);
 
+  // Read ?facility=... URL param once on mount
   useEffect(() => {
     if (typeof window !== "undefined") {
       const params = new URLSearchParams(window.location.search);
       setFacilityFilter(params.get("facility"));
     }
-
-    fetch("/api/logs", { cache: "no-store" })
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.success && data.alertLogs) {
-          setLogs(data.alertLogs);
-        } else {
-          setLogs([]);
-        }
-      })
-      .catch((err) => {
-        console.error("Gagal mengambil log dari Excel:", err);
-        setLogs([]);
-      });
-
   }, []);
 
-  const listData = logs;
-
-  const filteredLogs = facilityFilter
-    ? listData.filter((log) =>
+  const byFacility = facilityFilter
+    ? alertLogs.filter((log) =>
         log.facility.toLowerCase().includes(facilityFilter.toLowerCase())
       )
-    : listData;
+    : alertLogs;
+
+  const filteredLogs = filters
+    ? byFacility.filter((log) => {
+        const sev = (log.severity || "").toUpperCase() as keyof AlertFilterState["severity"];
+        return filters.severity[sev] ?? true;
+      })
+    : byFacility;
 
   return (
     <div className="flex-1 overflow-y-auto p-8 flex flex-col gap-4">
@@ -57,7 +54,12 @@ export function AlertList() {
           </button>
         </div>
       )}
-      {filteredLogs.length === 0 ? (
+      {isLoading ? (
+        <div className="flex flex-col items-center justify-center p-10 mt-10">
+          <div className="w-10 h-10 border-4 border-blue-200 border-t-[#0F52BA] rounded-full animate-spin mb-4"></div>
+          <p className="text-slate-500 font-medium">Memuat data alert...</p>
+        </div>
+      ) : filteredLogs.length === 0 ? (
         <div className="flex flex-col items-center justify-center p-10 mt-10 bg-green-50 border border-green-200 rounded-lg text-center">
           <CheckCircle2 size={48} className="text-green-500 mb-4" />
           <h3 className="text-lg font-bold text-green-800">Semua Fasilitas Sehat!</h3>
@@ -116,7 +118,7 @@ export function AlertList() {
               <div className="flex items-start justify-between mb-4">
                 <h3 className="text-[19px] font-bold text-[#0F172A]">{alert.title}</h3>
                 <button 
-                  onClick={() => window.alert(alert.note)}
+                  onClick={() => setSelectedAlertNote(alert.detailNote || alert.note)}
                   className="text-sm font-medium text-[#0F52BA] hover:underline"
                 >
                   Lihat Detail Log
@@ -144,6 +146,40 @@ export function AlertList() {
             </div>
           );
         })
+      )}
+
+      {selectedAlertNote && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 backdrop-blur-sm p-4">
+          <div className="w-full max-w-md bg-white rounded-xl shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+            <div className="flex items-center justify-between border-b border-slate-100 px-6 py-4">
+              <div className="flex items-center gap-3 text-[#0F52BA]">
+                <AlertCircle size={20} />
+                <h2 className="text-base font-bold text-slate-800">Detail Log Alert</h2>
+              </div>
+              <button 
+                onClick={() => setSelectedAlertNote(null)}
+                className="text-slate-400 hover:text-slate-600 transition-colors"
+              >
+                <X size={20} />
+              </button>
+            </div>
+            
+            <div className="p-6">
+              <p className="text-sm text-slate-600 mb-6 font-medium leading-relaxed whitespace-pre-line">
+                {selectedAlertNote}
+              </p>
+              
+              <div className="flex justify-end">
+                <button
+                  onClick={() => setSelectedAlertNote(null)}
+                  className="px-5 py-2.5 text-sm font-semibold text-white bg-[#0F52BA] rounded-md hover:bg-[#0b409c] transition-colors shadow-sm"
+                >
+                  Tutup
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );

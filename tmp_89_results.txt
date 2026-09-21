@@ -1,0 +1,5831 @@
+Found 89% at Row 24 Col 4
+Row 24 dumped:
+  Col 0: 45832
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 0.9955
+  Col 9: 0.9167
+  Col 10: 0.9867
+  Col 11: 1. Transformator T-07 di MPh rusak dan dalam proses pelaksanaan pekerjaan Investasi Pengadaan dan Penggantian Transformator T-07
+2. UPS T1B no.1 kondisi off karena kerusakan pada battery
+3. UPS T1A no.2 kondisi off karena kerusakan pada battery
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 25 Col 4
+Row 25 dumped:
+  Col 0: 45833
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 0.9955
+  Col 9: 0.9167
+  Col 10: 0.9867
+  Col 11: 1. Transformator T-07 di MPh rusak dan dalam proses pelaksanaan pekerjaan Investasi Pengadaan dan Penggantian Transformator T-07
+2. UPS T1B no.1 kondisi off karena kerusakan pada battery
+3. UPS T1A no.2 kondisi off karena kerusakan pada battery
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 26 Col 4
+Row 26 dumped:
+  Col 0: 45834
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 0.9955
+  Col 9: 0.9167
+  Col 10: 0.9867
+  Col 11: 1. Transformator T-07 di MPh rusak dan dalam proses pelaksanaan pekerjaan Investasi Pengadaan dan Penggantian Transformator T-07
+2. UPS T1B no.1 kondisi off karena kerusakan pada battery
+3. UPS T1A no.2 kondisi off karena kerusakan pada battery
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 27 Col 4
+Row 27 dumped:
+  Col 0: 45835
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 0.9955
+  Col 9: 95,83%
+  Col 10: 0.9867
+  Col 11: 1. Transformator T-07 di MPh rusak dan dalam proses pelaksanaan pekerjaan Investasi Pengadaan dan Penggantian Transformator T-07
+2. UPS T1B no.1 kondisi off karena kerusakan pada battery
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 28 Col 4
+Row 28 dumped:
+  Col 0: 45836
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 0.9955
+  Col 9: 95,83%
+  Col 10: 0.9867
+  Col 11: 1. Transformator T-07 di MPh rusak dan dalam proses pelaksanaan pekerjaan Investasi Pengadaan dan Penggantian Transformator T-07
+2. UPS T1B no.1 kondisi off karena kerusakan pada battery
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 29 Col 4
+Row 29 dumped:
+  Col 0: 45837
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 0.9955
+  Col 9: 95,83%
+  Col 10: 0.9867
+  Col 11: 1. Transformator T-07 di MPh rusak dan dalam proses pelaksanaan pekerjaan Investasi Pengadaan dan Penggantian Transformator T-07
+2. UPS T1B no.1 kondisi off karena kerusakan pada battery
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 30 Col 4
+Row 30 dumped:
+  Col 0: 45838
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 0.9955
+  Col 9: 95,83%
+  Col 10: 0.9867
+  Col 11: 1. Transformator T-07 di MPh rusak dan dalam proses pelaksanaan pekerjaan Investasi Pengadaan dan Penggantian Transformator T-07
+2. UPS T1B no.1 kondisi off karena kerusakan pada battery
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 54 Col 4
+Row 54 dumped:
+  Col 0: 45862
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 95,83%
+  Col 10: 0.9867
+  Col 11: 1. UPS T1B no.1 kondisi off karena kerusakan pada battery
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 55 Col 4
+Row 55 dumped:
+  Col 0: 45863
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 95,83%
+  Col 10: 0.9867
+  Col 11: 1. UPS T1B no.1 kondisi off karena kerusakan pada battery
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 56 Col 4
+Row 56 dumped:
+  Col 0: 45864
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 95,83%
+  Col 10: 0.9867
+  Col 11: 1. UPS T1B no.1 kondisi off karena kerusakan pada battery
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 57 Col 4
+Row 57 dumped:
+  Col 0: 45865
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 95,83%
+  Col 10: 0.9867
+  Col 11: 1. UPS T1B no.1 kondisi off karena kerusakan pada battery
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 58 Col 4
+Row 58 dumped:
+  Col 0: 45866
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 59 Col 4
+Row 59 dumped:
+  Col 0: 45867
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 60 Col 4
+Row 60 dumped:
+  Col 0: 45868
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 84 Col 4
+Row 84 dumped:
+  Col 0: 45892
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 85 Col 4
+Row 85 dumped:
+  Col 0: 45893
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 86 Col 4
+Row 86 dumped:
+  Col 0: 45894
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 87 Col 4
+Row 87 dumped:
+  Col 0: 45895
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 88 Col 4
+Row 88 dumped:
+  Col 0: 45896
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 89 Col 4
+Row 89 dumped:
+  Col 0: 45897
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 90 Col 4
+Row 90 dumped:
+  Col 0: 45898
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 114 Col 4
+Row 114 dumped:
+  Col 0: 45922
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 115 Col 4
+Row 115 dumped:
+  Col 0: 45923
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 116 Col 4
+Row 116 dumped:
+  Col 0: 45924
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 117 Col 4
+Row 117 dumped:
+  Col 0: 45925
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 118 Col 4
+Row 118 dumped:
+  Col 0: 45926
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 119 Col 4
+Row 119 dumped:
+  Col 0: 45927
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 120 Col 4
+Row 120 dumped:
+  Col 0: 45928
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.9867
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 144 Col 4
+Row 144 dumped:
+  Col 0: 45952
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 145 Col 4
+Row 145 dumped:
+  Col 0: 45953
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 146 Col 4
+Row 146 dumped:
+  Col 0: 45954
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 147 Col 4
+Row 147 dumped:
+  Col 0: 45955
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 148 Col 4
+Row 148 dumped:
+  Col 0: 45956
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 149 Col 4
+Row 149 dumped:
+  Col 0: 45957
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 150 Col 4
+Row 150 dumped:
+  Col 0: 45958
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No.6 T2 kerusakan 2 circuit refrigerant
+- Chiller No.5 T2 kerusakan 1 circuit refrigerant
+- Chiller No. 2 T2 kerusakan part sensor discharge tempt, discharge tempt switch, suction tempt sensor, DP, retrovit controle modul & EXV Driver
+- Chiller No. 4 T1B running abnormal (low press), saat RLA 58% evaporator pressure  30 psi
+Found 89% at Row 174 Col 4
+Row 174 dumped:
+  Col 0: 45982
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 1 A Kerusakan VC Switch 
+- Chiller No. 4 Terminal 1 B Kerusakan Kebocoran pada Spare part chiller  
+- Chiller No. 2 Terminal 2 Kerusakan pada Retrovit control modul 
+- Chiller No. 4 Terminal 2 Kerusakan pada Retrovit control modul 
+Found 89% at Row 175 Col 4
+Row 175 dumped:
+  Col 0: 45983
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 1 A Kerusakan VC Switch 
+- Chiller No. 4 Terminal 1 B Kerusakan Kebocoran pada Spare part chiller  
+- Chiller No. 2 Terminal 2 Kerusakan pada Retrovit control modul 
+- Chiller No. 4 Terminal 2 Kerusakan pada Retrovit control modul 
+Found 89% at Row 176 Col 4
+Row 176 dumped:
+  Col 0: 45984
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 1 A Kerusakan VC Switch 
+- Chiller No. 4 Terminal 1 B Kerusakan Kebocoran pada Spare part chiller  
+- Chiller No. 2 Terminal 2 Kerusakan pada Retrovit control modul 
+- Chiller No. 4 Terminal 2 Kerusakan pada Retrovit control modul 
+Found 89% at Row 177 Col 4
+Row 177 dumped:
+  Col 0: 45985
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 1 A Kerusakan VC Switch 
+- Chiller No. 4 Terminal 1 B Kerusakan Kebocoran pada Spare part chiller  
+- Chiller No. 2 Terminal 2 Kerusakan pada Retrovit control modul 
+- Chiller No. 4 Terminal 2 Kerusakan pada Retrovit control modul 
+Found 89% at Row 178 Col 4
+Row 178 dumped:
+  Col 0: 45986
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 1 A Kerusakan VC Switch 
+- Chiller No. 4 Terminal 1 B Kerusakan Kebocoran pada Spare part chiller  
+- Chiller No. 2 Terminal 2 Kerusakan pada Retrovit control modul 
+- Chiller No. 4 Terminal 2 Kerusakan pada Retrovit control modul 
+Found 89% at Row 179 Col 4
+Row 179 dumped:
+  Col 0: 45987
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 1 A Kerusakan VC Switch 
+- Chiller No. 4 Terminal 1 B Kerusakan Kebocoran pada Spare part chiller  
+- Chiller No. 2 Terminal 2 Kerusakan pada Retrovit control modul 
+- Chiller No. 4 Terminal 2 Kerusakan pada Retrovit control modul 
+Found 89% at Row 180 Col 4
+Row 180 dumped:
+  Col 0: 45988
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 95,80%
+  Col 11: null
+  Col 12: 0.9812
+  Col 13: 0.9609649122807017
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9981
+  Col 17: 1
+  Col 18: 0.9105820105820105
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 1 A Kerusakan VC Switch 
+- Chiller No. 4 Terminal 1 B Kerusakan Kebocoran pada Spare part chiller  
+- Chiller No. 2 Terminal 2 Kerusakan pada Retrovit control modul 
+- Chiller No. 4 Terminal 2 Kerusakan pada Retrovit control modul 
+Found 89% at Row 204 Col 4
+Row 204 dumped:
+  Col 0: 46012
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.958
+  Col 11: null
+  Col 12: 0.9646
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 205 Col 4
+Row 205 dumped:
+  Col 0: 46013
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.958
+  Col 11: null
+  Col 12: 0.9646
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 206 Col 4
+Row 206 dumped:
+  Col 0: 46014
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.958
+  Col 11: null
+  Col 12: 0.9646
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 207 Col 4
+Row 207 dumped:
+  Col 0: 46015
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.958
+  Col 11: null
+  Col 12: 0.9646
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 0.9977678571428572
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 208 Col 4
+Row 208 dumped:
+  Col 0: 46016
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.958
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 209 Col 4
+Row 209 dumped:
+  Col 0: 46017
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.958
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 210 Col 4
+Row 210 dumped:
+  Col 0: 46018
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.958
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 211 Col 4
+Row 211 dumped:
+  Col 0: 46019
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.958
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 212 Col 4
+Row 212 dumped:
+  Col 0: 46020
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.958
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 213 Col 4
+Row 213 dumped:
+  Col 0: 46021
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.958
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 214 Col 4
+Row 214 dumped:
+  Col 0: 46022
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 215 Col 4
+Row 215 dumped:
+  Col 0: 46023
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 216 Col 4
+Row 216 dumped:
+  Col 0: 46024
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 217 Col 4
+Row 217 dumped:
+  Col 0: 46025
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 218 Col 4
+Row 218 dumped:
+  Col 0: 46026
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 219 Col 4
+Row 219 dumped:
+  Col 0: 46027
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 220 Col 4
+Row 220 dumped:
+  Col 0: 46028
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 221 Col 4
+Row 221 dumped:
+  Col 0: 46029
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 222 Col 4
+Row 222 dumped:
+  Col 0: 46030
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 223 Col 4
+Row 223 dumped:
+  Col 0: 46031
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 224 Col 4
+Row 224 dumped:
+  Col 0: 46032
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 225 Col 4
+Row 225 dumped:
+  Col 0: 46033
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 226 Col 4
+Row 226 dumped:
+  Col 0: 46034
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 227 Col 4
+Row 227 dumped:
+  Col 0: 46035
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 228 Col 4
+Row 228 dumped:
+  Col 0: 46036
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 229 Col 4
+Row 229 dumped:
+  Col 0: 46037
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 230 Col 4
+Row 230 dumped:
+  Col 0: 46038
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 231 Col 4
+Row 231 dumped:
+  Col 0: 46039
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 232 Col 4
+Row 232 dumped:
+  Col 0: 46040
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 233 Col 4
+Row 233 dumped:
+  Col 0: 46041
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 234 Col 4
+Row 234 dumped:
+  Col 0: 46042
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 235 Col 4
+Row 235 dumped:
+  Col 0: 46043
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 236 Col 4
+Row 236 dumped:
+  Col 0: 46044
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 237 Col 4
+Row 237 dumped:
+  Col 0: 46045
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 238 Col 4
+Row 238 dumped:
+  Col 0: 46046
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 239 Col 4
+Row 239 dumped:
+  Col 0: 46047
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 240 Col 4
+Row 240 dumped:
+  Col 0: 46048
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 241 Col 4
+Row 241 dumped:
+  Col 0: 46049
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 242 Col 4
+Row 242 dumped:
+  Col 0: 46050
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 243 Col 4
+Row 243 dumped:
+  Col 0: 46051
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 244 Col 4
+Row 244 dumped:
+  Col 0: 46052
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 245 Col 4
+Row 245 dumped:
+  Col 0: 46053
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 246 Col 4
+Row 246 dumped:
+  Col 0: 46054
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 247 Col 4
+Row 247 dumped:
+  Col 0: 46055
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 248 Col 4
+Row 248 dumped:
+  Col 0: 46056
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 249 Col 4
+Row 249 dumped:
+  Col 0: 46057
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 250 Col 4
+Row 250 dumped:
+  Col 0: 46058
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 251 Col 4
+Row 251 dumped:
+  Col 0: 46059
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 252 Col 4
+Row 252 dumped:
+  Col 0: 46060
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 253 Col 4
+Row 253 dumped:
+  Col 0: 46061
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 254 Col 4
+Row 254 dumped:
+  Col 0: 46062
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 255 Col 4
+Row 255 dumped:
+  Col 0: 46063
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 256 Col 4
+Row 256 dumped:
+  Col 0: 46064
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 257 Col 4
+Row 257 dumped:
+  Col 0: 46065
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 258 Col 4
+Row 258 dumped:
+  Col 0: 46066
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 259 Col 4
+Row 259 dumped:
+  Col 0: 46067
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 260 Col 4
+Row 260 dumped:
+  Col 0: 46068
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 261 Col 4
+Row 261 dumped:
+  Col 0: 46069
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 262 Col 4
+Row 262 dumped:
+  Col 0: 46070
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 263 Col 4
+Row 263 dumped:
+  Col 0: 46071
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 264 Col 4
+Row 264 dumped:
+  Col 0: 46072
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 265 Col 4
+Row 265 dumped:
+  Col 0: 46073
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 266 Col 4
+Row 266 dumped:
+  Col 0: 46074
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 267 Col 4
+Row 267 dumped:
+  Col 0: 46075
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 268 Col 4
+Row 268 dumped:
+  Col 0: 46076
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 269 Col 4
+Row 269 dumped:
+  Col 0: 46077
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 270 Col 4
+Row 270 dumped:
+  Col 0: 46078
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 271 Col 4
+Row 271 dumped:
+  Col 0: 46079
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 272 Col 4
+Row 272 dumped:
+  Col 0: 46080
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 273 Col 4
+Row 273 dumped:
+  Col 0: 46081
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 274 Col 4
+Row 274 dumped:
+  Col 0: 46082
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: 0.9933333333333333
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 275 Col 4
+Row 275 dumped:
+  Col 0: 46083
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 276 Col 4
+Row 276 dumped:
+  Col 0: 46084
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 277 Col 4
+Row 277 dumped:
+  Col 0: 46085
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 278 Col 4
+Row 278 dumped:
+  Col 0: 46086
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 279 Col 4
+Row 279 dumped:
+  Col 0: 46087
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 280 Col 4
+Row 280 dumped:
+  Col 0: 46088
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 281 Col 4
+Row 281 dumped:
+  Col 0: 46089
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 282 Col 4
+Row 282 dumped:
+  Col 0: 46090
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: Trafo T01 630 KVA di Gedung AOB mengalami kerusakan, penggantian dengan trafo spare 200 KVA 
+  Col 12: 0.9768
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 2 Terminal 2 Kerusakan pada  control modul 
+- Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 283 Col 4
+Row 283 dumped:
+  Col 0: 46091
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 284 Col 4
+Row 284 dumped:
+  Col 0: 46092
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 285 Col 4
+Row 285 dumped:
+  Col 0: 46093
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 286 Col 4
+Row 286 dumped:
+  Col 0: 46094
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 287 Col 4
+Row 287 dumped:
+  Col 0: 46095
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 288 Col 4
+Row 288 dumped:
+  Col 0: 46096
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 289 Col 4
+Row 289 dumped:
+  Col 0: 46097
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 290 Col 4
+Row 290 dumped:
+  Col 0: 46098
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 291 Col 4
+Row 291 dumped:
+  Col 0: 46099
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 292 Col 4
+Row 292 dumped:
+  Col 0: 46100
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 293 Col 4
+Row 293 dumped:
+  Col 0: 46101
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 294 Col 4
+Row 294 dumped:
+  Col 0: 46102
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 295 Col 4
+Row 295 dumped:
+  Col 0: 46103
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 296 Col 4
+Row 296 dumped:
+  Col 0: 46104
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 297 Col 4
+Row 297 dumped:
+  Col 0: 46105
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 298 Col 4
+Row 298 dumped:
+  Col 0: 46106
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 299 Col 4
+Row 299 dumped:
+  Col 0: 46107
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 300 Col 4
+Row 300 dumped:
+  Col 0: 46108
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 301 Col 4
+Row 301 dumped:
+  Col 0: 46109
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 302 Col 4
+Row 302 dumped:
+  Col 0: 46110
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 303 Col 4
+Row 303 dumped:
+  Col 0: 46111
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 304 Col 4
+Row 304 dumped:
+  Col 0: 46112
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 305 Col 4
+Row 305 dumped:
+  Col 0: 46113
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 306 Col 4
+Row 306 dumped:
+  Col 0: 46114
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 307 Col 4
+Row 307 dumped:
+  Col 0: 46115
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 308 Col 4
+Row 308 dumped:
+  Col 0: 46116
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 309 Col 4
+Row 309 dumped:
+  Col 0: 46117
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 310 Col 4
+Row 310 dumped:
+  Col 0: 46118
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 311 Col 4
+Row 311 dumped:
+  Col 0: 46119
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 312 Col 4
+Row 312 dumped:
+  Col 0: 46120
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 313 Col 4
+Row 313 dumped:
+  Col 0: 46121
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 314 Col 4
+Row 314 dumped:
+  Col 0: 46122
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 315 Col 4
+Row 315 dumped:
+  Col 0: 46123
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 316 Col 4
+Row 316 dumped:
+  Col 0: 46124
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 317 Col 4
+Row 317 dumped:
+  Col 0: 46125
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 318 Col 4
+Row 318 dumped:
+  Col 0: 46126
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 319 Col 4
+Row 319 dumped:
+  Col 0: 46127
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 320 Col 4
+Row 320 dumped:
+  Col 0: 46128
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 321 Col 4
+Row 321 dumped:
+  Col 0: 46129
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 322 Col 4
+Row 322 dumped:
+  Col 0: 46130
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 323 Col 4
+Row 323 dumped:
+  Col 0: 46131
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 324 Col 4
+Row 324 dumped:
+  Col 0: 46132
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 325 Col 4
+Row 325 dumped:
+  Col 0: 46133
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 326 Col 4
+Row 326 dumped:
+  Col 0: 46134
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 327 Col 4
+Row 327 dumped:
+  Col 0: 46135
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 328 Col 4
+Row 328 dumped:
+  Col 0: 46136
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 329 Col 4
+Row 329 dumped:
+  Col 0: 46137
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 330 Col 4
+Row 330 dumped:
+  Col 0: 46138
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 331 Col 4
+Row 331 dumped:
+  Col 0: 46139
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 332 Col 4
+Row 332 dumped:
+  Col 0: 46140
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 333 Col 4
+Row 333 dumped:
+  Col 0: 46141
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 334 Col 4
+Row 334 dumped:
+  Col 0: 46142
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 335 Col 4
+Row 335 dumped:
+  Col 0: 46143
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 336 Col 4
+Row 336 dumped:
+  Col 0: 46144
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 337 Col 4
+Row 337 dumped:
+  Col 0: 46145
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 338 Col 4
+Row 338 dumped:
+  Col 0: 46146
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 339 Col 4
+Row 339 dumped:
+  Col 0: 46147
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 340 Col 4
+Row 340 dumped:
+  Col 0: 46148
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 341 Col 4
+Row 341 dumped:
+  Col 0: 46149
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 342 Col 4
+Row 342 dumped:
+  Col 0: 46150
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan 3 unit pompa distribusi T1
+- Garbarata A5B2 kiri kerusakan PLC console desk
+- Kerusakan Salvage
+Found 89% at Row 343 Col 4
+Row 343 dumped:
+  Col 0: 46151
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 1
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Kerusakan Salvage
+Found 89% at Row 344 Col 4
+Row 344 dumped:
+  Col 0: 46152
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 345 Col 4
+Row 345 dumped:
+  Col 0: 46153
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 346 Col 4
+Row 346 dumped:
+  Col 0: 46154
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 347 Col 4
+Row 347 dumped:
+  Col 0: 46155
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 348 Col 4
+Row 348 dumped:
+  Col 0: 46156
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 349 Col 4
+Row 349 dumped:
+  Col 0: 46157
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 350 Col 4
+Row 350 dumped:
+  Col 0: 46158
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 351 Col 4
+Row 351 dumped:
+  Col 0: 46159
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 352 Col 4
+Row 352 dumped:
+  Col 0: 46160
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 353 Col 4
+Row 353 dumped:
+  Col 0: 46161
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 354 Col 4
+Row 354 dumped:
+  Col 0: 46162
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 355 Col 4
+Row 355 dumped:
+  Col 0: 46163
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 356 Col 4
+Row 356 dumped:
+  Col 0: 46164
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 357 Col 4
+Row 357 dumped:
+  Col 0: 46165
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 358 Col 4
+Row 358 dumped:
+  Col 0: 46166
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 359 Col 4
+Row 359 dumped:
+  Col 0: 46167
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 360 Col 4
+Row 360 dumped:
+  Col 0: 46168
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 361 Col 4
+Row 361 dumped:
+  Col 0: 46169
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 362 Col 4
+Row 362 dumped:
+  Col 0: 46170
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 0.958
+  Col 10: 0.96
+  Col 11: - Kerusakan pada Battrey UPS 200 KVA No.1 Terminal 2 (Proses pelaksanaan Pekerjaan / Spare Part Indent) PO Nomor : 4400011396 TMT 10 Maret 2026 S.D 11 Juni 2026
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 363 Col 4
+Row 363 dumped:
+  Col 0: 46171
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 364 Col 4
+Row 364 dumped:
+  Col 0: 46172
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 365 Col 4
+Row 365 dumped:
+  Col 0: 46173
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 366 Col 4
+Row 366 dumped:
+  Col 0: 46174
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 367 Col 4
+Row 367 dumped:
+  Col 0: 46175
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 368 Col 4
+Row 368 dumped:
+  Col 0: 46176
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 369 Col 4
+Row 369 dumped:
+  Col 0: 46177
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 370 Col 4
+Row 370 dumped:
+  Col 0: 46178
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 371 Col 4
+Row 371 dumped:
+  Col 0: 46179
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 372 Col 4
+Row 372 dumped:
+  Col 0: 46180
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 373 Col 4
+Row 373 dumped:
+  Col 0: 46181
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 374 Col 4
+Row 374 dumped:
+  Col 0: 46182
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 375 Col 4
+Row 375 dumped:
+  Col 0: 46183
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 376 Col 4
+Row 376 dumped:
+  Col 0: 46184
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 377 Col 4
+Row 377 dumped:
+  Col 0: 46185
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 378 Col 4
+Row 378 dumped:
+  Col 0: 46186
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 379 Col 4
+Row 379 dumped:
+  Col 0: 46187
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 380 Col 4
+Row 380 dumped:
+  Col 0: 46188
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 381 Col 4
+Row 381 dumped:
+  Col 0: 46189
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 382 Col 4
+Row 382 dumped:
+  Col 0: 46190
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 383 Col 4
+Row 383 dumped:
+  Col 0: 46191
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 384 Col 4
+Row 384 dumped:
+  Col 0: 46192
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 385 Col 4
+Row 385 dumped:
+  Col 0: 46193
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 386 Col 4
+Row 386 dumped:
+  Col 0: 46194
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 387 Col 4
+Row 387 dumped:
+  Col 0: 46195
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 388 Col 4
+Row 388 dumped:
+  Col 0: 46196
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 389 Col 4
+Row 389 dumped:
+  Col 0: 46197
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 390 Col 4
+Row 390 dumped:
+  Col 0: 46198
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage
+Found 89% at Row 391 Col 4
+Row 391 dumped:
+  Col 0: 46199
+  Col 1: Region 4
+  Col 2: Juanda Airport Surabaya
+  Col 3: SUB
+  Col 4: 0.899999999999999
+  Col 5: 1
+  Col 6: 1
+  Col 7: 1
+  Col 8: 1
+  Col 9: 1
+  Col 10: 0.96
+  Col 11: null
+  Col 12: 0.9285714285714286
+  Col 13: 0.9912
+  Col 14: 1
+  Col 15: 1
+  Col 16: 0.9583
+  Col 17: 0.9
+  Col 18: 0.9038
+  Col 19: null
+  Col 20: - Chiller No. 1 T1B sensor oil temperatur error
+- Kerusakan Salvage

@@ -146,6 +146,7 @@ export interface DashboardOutput {
     score: number;
     scoreChange?: number;
     status: "SEHAT" | "PERINGATAN" | "KRITIS";
+    history?: { name: string; value: number }[];
   }[];
   alertLogs: {
     id: number;
@@ -155,6 +156,7 @@ export interface DashboardOutput {
     title: string;
     facility: string;
     note: string;
+    detailNote?: string;
   }[];
   maintenanceLogs?: {
     id: number;
@@ -172,7 +174,22 @@ export function getDashboardData(): DashboardOutput {
       throw new Error("Tidak ada baris data valid di sheet Excel SUB");
     }
 
+    // PRE-PROCESS: Carry over from previous rows for empty cells
+    const originalRowsData = rows.map(r => [...r.data]);
+    for (let i = 1; i < rows.length; i++) {
+      const prevRow = rows[i - 1];
+      const currRow = rows[i];
+      EQUIPMENT_SCHEMAS.forEach(eq => {
+        const idx = eq.columnIndex;
+        const rawVal = currRow.data[idx];
+        if (rawVal === null || rawVal === undefined || rawVal === "") {
+          currRow.data[idx] = prevRow.data[idx];
+        }
+      });
+    }
+
     const latestRow = rows[rows.length - 1];
+    const previousRow = rows.length > 1 ? rows[rows.length - 2] : null;
     
     // Ambil Target Kinerja dari Excel (Kolom E / index 4)
     let dynamicTarget = 90; // fallback default
@@ -209,6 +226,16 @@ export function getDashboardData(): DashboardOutput {
         }
       }
 
+      let previousScore = score;
+      if (previousRow) {
+        let prevRaw = previousRow.data[eq.columnIndex];
+        if (prevRaw !== null && prevRaw !== undefined) {
+          let prevNum = typeof prevRaw === "number" ? prevRaw : parseFloat(prevRaw);
+          if (!isNaN(prevNum)) previousScore = prevNum > 1 ? Math.round(prevNum) : Math.round(prevNum * 100);
+        }
+      }
+      let scoreChange = score - previousScore;
+
       let status: "SEHAT" | "PERINGATAN" | "KRITIS" = "SEHAT";
       if (score < 70) {
         status = "KRITIS";
@@ -217,13 +244,33 @@ export function getDashboardData(): DashboardOutput {
         status = "PERINGATAN";
       }
 
+      // Filter to only include history where the equipment explicitly had data recorded
+      const explicitRows = rows.filter((r, rowIndex) => {
+        const origVal = originalRowsData[rowIndex][eq.columnIndex];
+        return origVal !== null && origVal !== undefined && origVal !== "";
+      });
+      // Get up to last 6 rows for trend history
+      const last6Rows = explicitRows.slice(-6);
+      const eqHistory = last6Rows.map(row => {
+        let rVal = row.data[eq.columnIndex];
+        let hScore = 100;
+        if (rVal !== null && rVal !== undefined) {
+          let nVal = typeof rVal === "number" ? rVal : parseFloat(rVal);
+          if (!isNaN(nVal)) hScore = nVal > 1 ? Math.round(nVal) : Math.round(nVal * 100);
+        }
+        const dateName = row.jsDate.toLocaleDateString('id-ID', { day: 'numeric', month: 'short' });
+        return { name: dateName, value: hScore };
+      });
+
       return {
         id: eq.id,
         name: eq.displayName,
         category: eq.category,
         location: eq.location,
         score,
-        status
+        scoreChange,
+        status,
+        history: eqHistory
       };
     });
 
@@ -249,6 +296,46 @@ export function getDashboardData(): DashboardOutput {
 
     equipmentList.forEach(eq => {
       if (eq.status === "KRITIS" || eq.status === "PERINGATAN") {
+        let issueDetail = "";
+        let descColIndex = 11;
+        if (eq.category === "MEKANIKAL") descColIndex = 20;
+        if (eq.category === "ELEKTRONIKA") descColIndex = 33;
+        
+        const latestDesc = latestRow.data[descColIndex];
+        if (latestDesc && typeof latestDesc === "string") {
+          const cleanedName = eq.name.toLowerCase().replace("system", "").replace("scanner", "").trim();
+          const excelName = (EQUIPMENT_SCHEMAS.find(s => s.id === eq.id)?.excelName || "").toLowerCase().trim();
+          const lines = latestDesc.split(/\r?\n/);
+          let currentLine = "";
+          let notesForEq = [];
+          
+          for (let line of lines) {
+            const trimmed = line.trim();
+            if (trimmed.length === 0) continue;
+            if (/^(\d+\.|-)\s+/.test(trimmed)) {
+              if (currentLine && (currentLine.toLowerCase().includes(cleanedName) || currentLine.toLowerCase().includes(excelName))) {
+                notesForEq.push(currentLine.replace(/^(\d+\.|-)\s*/, ""));
+              }
+              currentLine = trimmed;
+            } else {
+              if (!currentLine) currentLine = trimmed;
+              else currentLine += " " + trimmed;
+            }
+          }
+          if (currentLine && (currentLine.toLowerCase().includes(cleanedName) || currentLine.toLowerCase().includes(excelName))) {
+            notesForEq.push(currentLine.replace(/^(\d+\.|-)\s*/, ""));
+          }
+          if (notesForEq.length > 0) {
+            issueDetail = ` \n\nDetail Kerusakan: ${notesForEq.join(", ")}`;
+          } else if (latestDesc.trim().length > 0) {
+            // Fallback: show the whole text for this category if substring match fails
+            issueDetail = ` \n\nCatatan Maintenance (${eq.category}):\n${latestDesc.trim()}`;
+          }
+        }
+
+        const conditionText = eq.score < dynamicTarget ? "di bawah batas normal" : "berada pada batas peringatan minimum";
+        const baseNote = `Skor ${conditionText}. Target Excel: ${dynamicTarget}%, Saat ini: ${eq.score}%.`;
+
         alertLogs.push({
           id: logIdCounter++,
           severity: eq.status,
@@ -256,7 +343,8 @@ export function getDashboardData(): DashboardOutput {
           incidentNumber: `SYS-${2000 + logIdCounter}`,
           title: `Sistem mendeteksi performa rendah (${eq.score}%)`,
           facility: `${eq.name} (${eq.category})`,
-          note: `Skor di bawah batas normal. Target Excel: ${dynamicTarget}%, Saat ini: ${eq.score}%.`
+          note: baseNote,
+          detailNote: issueDetail ? `${baseNote}${issueDetail}` : baseNote
         });
       }
     });
@@ -514,11 +602,21 @@ export function writeDailyReport(
       }
       
     } else {
-      // APPEND BARIS BARU DI AKHIR SHEET
-      const newRowIdx = range.e.r + 1;
+      // APPEND BARIS BARU DI AKHIR DATA AKTUAL
+      let actualLastRow = 0;
+      for (let r = 1; r <= range.e.r; r++) {
+        const dCell = sheet[XLSX.utils.encode_cell({ r, c: 0 })];
+        if (dCell && typeof dCell.v === "number") {
+          actualLastRow = r;
+        }
+      }
       
-      // Update Range Ref Sheet
-      range.e.r = newRowIdx;
+      const newRowIdx = actualLastRow + 1;
+      
+      // Update Range Ref Sheet if needed
+      if (newRowIdx > range.e.r) {
+        range.e.r = newRowIdx;
+      }
       sheet["!ref"] = XLSX.utils.encode_range(range);
 
       // Isi tanggal di Kolom A
@@ -533,10 +631,9 @@ export function writeDailyReport(
       const targetVal = targetPercent !== undefined ? targetPercent / 100 : 0.9;
       sheet[XLSX.utils.encode_cell({ r: newRowIdx, c: 4 })] = { t: "n", v: targetVal };
 
-      // Isi default 100% (1) untuk semua peralatan
-      EQUIPMENT_SCHEMAS.forEach(eq => {
-        sheet[XLSX.utils.encode_cell({ r: newRowIdx, c: eq.columnIndex })] = { t: "n", v: 1.0 };
-      });
+      // Cari baris terakhir yang ada datanya (actualLastRow)
+      // Kita tidak lagi menyalin nilai dari baris terakhir agar chart hanya merekam jika alat itu secara nyata diedit.
+      // (Backend akan melakukan mekanisme carry-over secara otomatis di tampilan).
 
       // Update nilai spesifik alat yang diedit
       sheet[XLSX.utils.encode_cell({ r: newRowIdx, c: eqSchema.columnIndex })] = { t: "n", v: valueToWrite };
@@ -630,7 +727,7 @@ export async function parseExcelDataAsync(): Promise<{ excelSerial: number; jsDa
   if (sheetId) {
     try {
       const url = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=xlsx`;
-      const response = await fetch(url, { next: { revalidate: 60 } });
+      const response = await fetch(url, { cache: "no-store" });
       if (response.ok) {
         const arrayBuffer = await response.arrayBuffer();
         const fileBuffer = Buffer.from(arrayBuffer);
@@ -672,10 +769,38 @@ export async function parseExcelDataAsync(): Promise<{ excelSerial: number; jsDa
   return parseExcelData();
 }
 
+interface DashboardCacheData {
+  data: DashboardOutput;
+  lastFetch: number;
+}
+const CACHE_TTL_MS = 0; // Disabled for instant updates
+const globalCache = global as unknown as { dashboardDataCache?: DashboardCacheData };
+
 export async function getDashboardDataAsync(): Promise<DashboardOutput> {
+  const now = Date.now();
+  if (globalCache.dashboardDataCache && (now - globalCache.dashboardDataCache.lastFetch < CACHE_TTL_MS)) {
+    return globalCache.dashboardDataCache.data;
+  }
+
   const rows = await parseExcelDataAsync();
   if (rows.length === 0) {
     throw new Error("Tidak ada baris data valid di sheet Excel SUB");
+  }
+
+  // PRE-PROCESS: Jika ada cell alat yang kosong di suatu baris (karena Apps Script hanya mengisi alat yang diupdate),
+  // copy nilai dari baris sebelumnya secara kronologis agar skor terakhir tetap dipertahankan (bukan ke-reset 100%).
+  const originalRowsData = rows.map(r => [...r.data]);
+  for (let i = 1; i < rows.length; i++) {
+    const prevRow = rows[i - 1];
+    const currRow = rows[i];
+    EQUIPMENT_SCHEMAS.forEach(eq => {
+      const idx = eq.columnIndex;
+      const rawVal = currRow.data[idx];
+      if (rawVal === null || rawVal === undefined || rawVal === "") {
+        // Carry over from previous row
+        currRow.data[idx] = prevRow.data[idx];
+      }
+    });
   }
 
   const latestRow = rows[rows.length - 1];
@@ -732,6 +857,25 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
       status = "PERINGATAN";
     }
 
+    // Filter to only include history where the equipment explicitly had data recorded
+    const explicitRows = rows.filter((r, rowIndex) => {
+      const origVal = originalRowsData[rowIndex][eq.columnIndex];
+      return origVal !== null && origVal !== undefined && origVal !== "";
+    });
+    // Get up to last 6 rows for trend history
+    const last6Rows = explicitRows.slice(-6);
+    const eqHistory = last6Rows.map(row => {
+      let rVal = row.data[eq.columnIndex];
+      let hScore = 100;
+      if (rVal !== null && rVal !== undefined) {
+        let nVal = typeof rVal === "number" ? rVal : parseFloat(rVal);
+        if (!isNaN(nVal)) hScore = nVal > 1 ? Math.round(nVal) : Math.round(nVal * 100);
+      }
+      // e.g. "12 Jan"
+      const dateName = row.jsDate.toLocaleDateString('id-ID', { day: 'numeric', month: 'short' });
+      return { name: dateName, value: hScore };
+    });
+
     return {
       id: eq.id,
       name: eq.displayName,
@@ -739,7 +883,8 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
       location: eq.location,
       score,
       scoreChange,
-      status
+      status,
+      history: eqHistory
     };
   });
 
@@ -763,6 +908,46 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
 
   equipmentList.forEach(eq => {
     if (eq.status === "KRITIS" || eq.status === "PERINGATAN") {
+      let issueDetail = "";
+      let descColIndex = 11;
+      if (eq.category === "MEKANIKAL") descColIndex = 20;
+      if (eq.category === "ELEKTRONIKA") descColIndex = 33;
+      
+      const latestDesc = latestRow.data[descColIndex];
+      if (latestDesc && typeof latestDesc === "string") {
+        const cleanedName = eq.name.toLowerCase().replace("system", "").replace("scanner", "").trim();
+        const excelName = (EQUIPMENT_SCHEMAS.find(s => s.id === eq.id)?.excelName || "").toLowerCase().trim();
+        const lines = latestDesc.split(/\r?\n/);
+        let currentLine = "";
+        let notesForEq = [];
+        
+        for (let line of lines) {
+          const trimmed = line.trim();
+          if (trimmed.length === 0) continue;
+          if (/^(\d+\.|-)\s+/.test(trimmed)) {
+            if (currentLine && (currentLine.toLowerCase().includes(cleanedName) || currentLine.toLowerCase().includes(excelName))) {
+              notesForEq.push(currentLine.replace(/^(\d+\.|-)\s*/, ""));
+            }
+            currentLine = trimmed;
+          } else {
+            if (!currentLine) currentLine = trimmed;
+            else currentLine += " " + trimmed;
+          }
+        }
+        if (currentLine && (currentLine.toLowerCase().includes(cleanedName) || currentLine.toLowerCase().includes(excelName))) {
+          notesForEq.push(currentLine.replace(/^(\d+\.|-)\s*/, ""));
+        }
+        if (notesForEq.length > 0) {
+          issueDetail = ` \n\nDetail Kerusakan: ${notesForEq.join(", ")}`;
+        } else if (latestDesc.trim().length > 0) {
+          // Fallback: show the whole text for this category if substring match fails
+          issueDetail = ` \n\nCatatan Maintenance (${eq.category}):\n${latestDesc.trim()}`;
+        }
+      }
+
+      const conditionText = eq.score < dynamicTarget ? "di bawah batas normal" : "berada pada batas peringatan minimum";
+      const baseNote = `Skor ${conditionText}. Target Excel: ${dynamicTarget}%, Saat ini: ${eq.score}%.`;
+
       alertLogs.push({
         id: logIdCounter++,
         severity: eq.status,
@@ -770,7 +955,8 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
         incidentNumber: `SYS-${2000 + logIdCounter}`,
         title: `Sistem mendeteksi performa rendah (${eq.score}%)`,
         facility: `${eq.name} (${eq.category})`,
-        note: `Skor di bawah batas normal. Target Excel: ${dynamicTarget}%, Saat ini: ${eq.score}%.`
+        note: baseNote,
+        detailNote: issueDetail ? `${baseNote}${issueDetail}` : baseNote
       });
     }
   });
@@ -884,7 +1070,7 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
     { id: "elektronika", label: "Elektronika", count: equipmentList.filter(e => e.category === "ELEKTRONIKA").length }
   ];
 
-  return {
+  const outputResult = {
     kpiData: {
       averageScore,
       criticalFacilities: criticalCount,
@@ -899,6 +1085,13 @@ export async function getDashboardDataAsync(): Promise<DashboardOutput> {
     alertLogs,
     maintenanceLogs
   };
+
+  globalCache.dashboardDataCache = {
+    data: outputResult,
+    lastFetch: Date.now()
+  };
+
+  return outputResult;
 }
 
 export async function writeDailyReportAsync(
@@ -911,6 +1104,10 @@ export async function writeDailyReportAsync(
   letterCode?: string,
   targetPercent?: number
 ): Promise<{ success: boolean; message: string; date: string }> {
+  // We pass the raw ISO string directly. The time/timezone parsing logic 
+  // will be fully normalized to Industry Standards on the Google Apps Script side.
+  const safeDateString = dateString;
+
   const scriptUrl = process.env.GOOGLE_SCRIPT_URL || process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL;
   if (scriptUrl) {
     try {
@@ -918,7 +1115,7 @@ export async function writeDailyReportAsync(
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          date: dateString,
+          date: safeDateString,
           equipmentId,
           score: scorePercent,
           description: issueDescription,
