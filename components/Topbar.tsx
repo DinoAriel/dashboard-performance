@@ -106,7 +106,7 @@ export function Topbar({ title, alertLogs = [] }: TopbarProps) {
                 </div>
                 <div className="p-4 text-sm text-slate-600 space-y-3">
                   <p><strong>1. KPI Cards:</strong> Menampilkan ringkasan skor rata-rata, jumlah fasilitas kritis, total inventaris, dan jumlah alert aktif terkini.</p>
-                  <p><strong>2. Grafik Tren:</strong> Grafik garis menunjukkan tren kesehatan fasilitas per bulan sesuai data Excel Anda.</p>
+                  <p><strong>2. Grafik Tren:</strong> Grafik garis menunjukkan tren performance fasilitas per bulan sesuai data Excel Anda.</p>
                   <p><strong>3. Tabel Fasilitas:</strong> Daftar seluruh peralatan beserta status kesehatannya berdasarkan data terbaru di file Excel.</p>
                 </div>
               </div>

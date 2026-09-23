@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, Tooltip } from "recharts";
+import { MonthlyDetailModal } from "./MonthlyDetailModal";
 
 interface EquipmentData {
   id: string;
@@ -37,8 +38,9 @@ const generateMockHistory = (scoreVal: any) => {
 
 export function DashboardTable({ facilities, categoriesList }: DashboardTableProps) {
   const [selectedCategory, setSelectedCategory] = useState("elektrikal");
+  const [selectedEquipmentForModal, setSelectedEquipmentForModal] = useState<string | null>(null);
   
-  const facilitiesData: EquipmentData[] = (facilities && facilities.length > 0 ? facilities : mockFacilityDetails) as EquipmentData[];
+  const facilitiesData: EquipmentData[] = (facilities && facilities.length > 0 ? facilities : []) as EquipmentData[];
   
   const defaultCategories = [
     { id: "ELEKTRIKAL", label: "Elektrikal", count: 6 },
@@ -192,12 +194,22 @@ export function DashboardTable({ facilities, categoriesList }: DashboardTablePro
 
               {/* Card Footer */}
               <div className="flex justify-between items-end mt-auto pt-2">
-                <div style={{ color: strokeColor }} className="text-3xl font-black tracking-tight">
-                  {facility.score}%
+                <div style={{ color: strokeColor }} className="text-3xl font-black tracking-tight flex items-baseline">
+                  {facility.score}%<span className="text-xs font-semibold text-slate-400 ml-1">/monthly</span>
                 </div>
-                <div className={cn("text-xs font-bold px-2 py-1 rounded-md", trendCls)}>
+                <div className={cn("text-xs font-bold px-2 py-1 rounded-md mb-1", trendCls)}>
                   {trendLabel}
                 </div>
+              </div>
+
+              {/* Link Detail Peralatan */}
+              <div className="mt-3 pt-3 border-t border-slate-100 flex justify-end">
+                <a
+                  href={`/equipment/${facility.id}`}
+                  className="text-xs font-semibold text-[#0284C7] hover:text-[#0369a1] flex items-center gap-1 cursor-pointer transition-colors"
+                >
+                  Lihat Detail →
+                </a>
               </div>
             </div>
           );
@@ -209,6 +221,12 @@ export function DashboardTable({ facilities, categoriesList }: DashboardTablePro
           Tidak ada data peralatan untuk kategori ini.
         </div>
       )}
+
+      {/* Modal Detail Bulanan Real-time Excel */}
+      <MonthlyDetailModal
+        equipmentId={selectedEquipmentForModal}
+        onClose={() => setSelectedEquipmentForModal(null)}
+      />
     </div>
   );
 }

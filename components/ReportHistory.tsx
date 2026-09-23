@@ -162,7 +162,13 @@ export function ReportHistory() {
       {/* Table */}
       <div className="flex-1 overflow-auto">
         {loading ? (
-          <div className="p-10 text-center text-slate-500">Memuat data histori...</div>
+          <div className="flex flex-col items-center justify-center p-10">
+            <div className="relative flex items-center justify-center">
+              <div className="absolute w-12 h-12 border-4 border-blue-200 rounded-full animate-ping opacity-20"></div>
+              <div className="w-8 h-8 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
+            </div>
+            <p className="mt-4 text-sm text-slate-500 font-medium animate-pulse">Memuat data histori...</p>
+          </div>
         ) : filteredLogs.length === 0 ? (
           <div className="p-10 text-center text-slate-500">Tidak ada riwayat catatan yang sesuai filter.</div>
         ) : (

@@ -150,8 +150,14 @@ export function EquipmentTable({ selectedId, onSelect, equipment, searchQuery = 
           <tbody className="divide-y divide-slate-100">
             {isLoading ? (
               <tr>
-                <td colSpan={6} className="px-6 py-8 text-center text-slate-500">
-                  Memuat data alat...
+                <td colSpan={6} className="px-6 py-12 text-center">
+                  <div className="flex flex-col items-center justify-center">
+                    <div className="relative flex items-center justify-center">
+                      <div className="absolute w-12 h-12 border-4 border-blue-200 rounded-full animate-ping opacity-20"></div>
+                      <div className="w-8 h-8 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
+                    </div>
+                    <p className="mt-4 text-sm text-slate-500 font-medium animate-pulse">Memuat data alat...</p>
+                  </div>
                 </td>
               </tr>
             ) : filteredList.length === 0 ? (

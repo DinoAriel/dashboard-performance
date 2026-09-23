@@ -107,9 +107,12 @@ export default function SchedulePage() {
         <div className="flex-1 h-full min-w-0">
           {isLoadingEvents ? (
             <div className="flex items-center justify-center h-full">
-              <div className="flex flex-col items-center gap-3">
-                <div className="w-8 h-8 border-4 border-blue-200 border-t-[#0F52BA] rounded-full animate-spin" />
-                <p className="text-sm text-slate-500 font-medium">Memuat jadwal...</p>
+              <div className="flex flex-col items-center">
+                <div className="relative flex items-center justify-center">
+                  <div className="absolute w-12 h-12 border-4 border-blue-200 rounded-full animate-ping opacity-20"></div>
+                  <div className="w-8 h-8 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
+                </div>
+                <p className="mt-4 text-sm text-slate-500 font-medium animate-pulse">Memuat jadwal...</p>
               </div>
             </div>
           ) : (

@@ -77,9 +77,11 @@ export const EQUIPMENT_SPECS: Record<string, { brand: string; model: string; ins
 };
 
 export function excelSerialToJSDate(serial: number): Date {
+  // Add 12 hours to avoid timezone shift causing date to roll back to previous day
   const utc_days = Math.floor(serial - 25569);
   const utc_value = utc_days * 86400;
-  return new Date(utc_value * 1000);
+  const date = new Date((utc_value + 43200) * 1000);
+  return date;
 }
 
 export function jsDateToExcelSerial(date: Date): number {
@@ -208,59 +210,70 @@ export function getDashboardData(): DashboardOutput {
       if (dynamicTarget < 1 || dynamicTarget > 100) dynamicTarget = 90;
     }
 
-    // Parse Equipment & Skor saat ini
+    const currentMonthStr = latestRow.jsDate.toISOString().substring(0, 7);
+    let prevDate = new Date(latestRow.jsDate);
+    prevDate.setMonth(prevDate.getMonth() - 1);
+    const previousMonthStr = prevDate.toISOString().substring(0, 7);
+
+    // Parse Equipment & Skor saat ini (menggunakan status/skor terbaru dari baris terakhir Excel)
     const equipmentList = EQUIPMENT_SCHEMAS.map(eq => {
-      let rawVal = latestRow.data[eq.columnIndex];
+      let latestRawVal = latestRow.data[eq.columnIndex];
       let score = 100;
-      if (rawVal !== null && rawVal !== undefined) {
-        let numVal: number;
-        if (typeof rawVal === "number") {
-          numVal = rawVal;
-        } else {
-          numVal = parseFloat(rawVal);
-        }
-        if (!isNaN(numVal)) {
-          // Jika nilai > 1, user memasukkan langsung sebagai persen (misal: 40, 60, 90)
-          // Jika nilai <= 1, nilai dalam bentuk desimal (misal: 0.40, 0.60, 0.90)
-          score = numVal > 1 ? Math.round(numVal) : Math.round(numVal * 100);
-        }
+      if (latestRawVal !== null && latestRawVal !== undefined && latestRawVal !== "") {
+        let nVal = typeof latestRawVal === "number" ? latestRawVal : parseFloat(String(latestRawVal));
+        if (!isNaN(nVal)) score = nVal > 1 ? Math.round(nVal) : Math.round(nVal * 100);
       }
 
+      let previousRawVal = previousRow ? previousRow.data[eq.columnIndex] : null;
       let previousScore = score;
-      if (previousRow) {
-        let prevRaw = previousRow.data[eq.columnIndex];
-        if (prevRaw !== null && prevRaw !== undefined) {
-          let prevNum = typeof prevRaw === "number" ? prevRaw : parseFloat(prevRaw);
-          if (!isNaN(prevNum)) previousScore = prevNum > 1 ? Math.round(prevNum) : Math.round(prevNum * 100);
-        }
+      if (previousRawVal !== null && previousRawVal !== undefined && previousRawVal !== "") {
+        let nVal = typeof previousRawVal === "number" ? previousRawVal : parseFloat(String(previousRawVal));
+        if (!isNaN(nVal)) previousScore = nVal > 1 ? Math.round(nVal) : Math.round(nVal * 100);
       }
+
       let scoreChange = score - previousScore;
 
       let status: "SEHAT" | "PERINGATAN" | "KRITIS" = "SEHAT";
       if (score < 70) {
         status = "KRITIS";
       } else if (score <= dynamicTarget) {
-        // score <= target → PERINGATAN (harus > target untuk SEHAT)
         status = "PERINGATAN";
       }
 
-      // Filter to only include history where the equipment explicitly had data recorded
-      const explicitRows = rows.filter((r, rowIndex) => {
+      // Group scores by Month (Year-Month) to build monthly average history
+      const equipmentMonthlyScores: Record<string, { sum: number; count: number }> = {};
+      rows.forEach((r, rowIndex) => {
         const origVal = originalRowsData[rowIndex][eq.columnIndex];
-        return origVal !== null && origVal !== undefined && origVal !== "";
-      });
-      // Get up to last 6 rows for trend history
-      const last6Rows = explicitRows.slice(-6);
-      const eqHistory = last6Rows.map(row => {
-        let rVal = row.data[eq.columnIndex];
-        let hScore = 100;
-        if (rVal !== null && rVal !== undefined) {
-          let nVal = typeof rVal === "number" ? rVal : parseFloat(rVal);
-          if (!isNaN(nVal)) hScore = nVal > 1 ? Math.round(nVal) : Math.round(nVal * 100);
+        if (origVal !== null && origVal !== undefined && origVal !== "") {
+          const d = r.jsDate;
+          const ym = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+          let rVal = r.data[eq.columnIndex];
+          let hScore = 100;
+          if (rVal !== null && rVal !== undefined) {
+            let nVal = typeof rVal === "number" ? rVal : parseFloat(rVal);
+            if (!isNaN(nVal)) hScore = nVal > 1 ? Math.round(nVal) : Math.round(nVal * 100);
+          }
+          if (!equipmentMonthlyScores[ym]) {
+            equipmentMonthlyScores[ym] = { sum: 0, count: 0 };
+          }
+          equipmentMonthlyScores[ym].sum += hScore;
+          equipmentMonthlyScores[ym].count += 1;
         }
-        const dateName = row.jsDate.toLocaleDateString('id-ID', { day: 'numeric', month: 'short' });
-        return { name: dateName, value: hScore };
       });
+
+      const monthNamesShort: Record<string, string> = {
+        "01": "Jan", "02": "Feb", "03": "Mar", "04": "Apr", "05": "Mei", "06": "Jun",
+        "07": "Jul", "08": "Agt", "09": "Sep", "10": "Okt", "11": "Nov", "12": "Des"
+      };
+
+      const eqHistory = Object.keys(equipmentMonthlyScores)
+        .sort()
+        .slice(-6)
+        .map((ym) => {
+          const mStr = ym.split("-")[1];
+          const avgScore = Math.round(equipmentMonthlyScores[ym].sum / equipmentMonthlyScores[ym].count);
+          return { name: monthNamesShort[mStr] || mStr, value: avgScore };
+        });
 
       return {
         id: eq.id,
@@ -1140,4 +1153,280 @@ export async function writeDailyReportAsync(
   }
 
   return writeDailyReport(dateString, equipmentId, scorePercent, issueDescription, region, location, letterCode, targetPercent);
+}
+
+// ============================================================
+// MONTHLY DETAIL PER EQUIPMENT
+// ============================================================
+export interface EquipmentMonthlyDetail {
+  equipment: {
+    id: string;
+    name: string;
+    category: string;
+    location: string;
+    brand: string;
+    model: string;
+    installation: string;
+  };
+  month: string; // "2026-09"
+  monthLabel: string; // "September 2026"
+  target: number;
+  dateFrom: string;
+  dateTo: string;
+  summary: {
+    averageScore: number;
+    highestScore: number;
+    lowestScore: number;
+    daysReported: number;
+    daysInRange: number;
+    previousMonthAvg: number;
+    change: number;
+  };
+  statusDistribution: {
+    sehat: number;
+    peringatan: number;
+    kritis: number;
+  };
+  dailyData: { date: string; score: number; fullDate: string; isExplicit?: boolean }[];
+  maintenanceLogs: { date: string; note: string }[];
+}
+
+export async function getEquipmentMonthlyDetail(
+  equipmentId: string,
+  yearMonth?: string, // "2026-09"
+  dateFromParam?: string, // "YYYY-MM-DD"
+  dateToParam?: string   // "YYYY-MM-DD"
+): Promise<EquipmentMonthlyDetail | null> {
+  const eqSchema = EQUIPMENT_SCHEMAS.find(eq => eq.id === equipmentId);
+  if (!eqSchema) return null;
+
+  const specs = EQUIPMENT_SPECS[equipmentId] || { brand: "-", model: "-", installation: "-" };
+
+  const rows = await parseExcelDataAsync();
+  if (rows.length === 0) return null;
+
+  // Track original raw rows to know which entries were explicitly reported vs carried over
+  const originalRowsData = rows.map(r => [...r.data]);
+
+  // Carry over values for empty cells
+  for (let i = 1; i < rows.length; i++) {
+    const prevRow = rows[i - 1];
+    const currRow = rows[i];
+    EQUIPMENT_SCHEMAS.forEach(eq => {
+      const idx = eq.columnIndex;
+      const rawVal = currRow.data[idx];
+      if (rawVal === null || rawVal === undefined || rawVal === "") {
+        currRow.data[idx] = prevRow.data[idx];
+      }
+    });
+  }
+
+  // Target Percent from latest row
+  const latestRow = rows[rows.length - 1];
+  let dynamicTarget = 90;
+  const rawTarget = latestRow.data[4];
+  if (rawTarget !== null && rawTarget !== undefined) {
+    let numTarget = typeof rawTarget === "number" ? rawTarget : parseFloat(String(rawTarget).replace('%', '').trim());
+    if (!isNaN(numTarget)) {
+      dynamicTarget = numTarget <= 1 ? Math.round(numTarget * 100) : Math.round(numTarget);
+    }
+    if (dynamicTarget < 1 || dynamicTarget > 100) dynamicTarget = 90;
+  }
+
+  // Helper to parse score
+  const parseScore = (rawVal: any): number => {
+    if (rawVal === null || rawVal === undefined || rawVal === "") return -1;
+    let numVal = typeof rawVal === "number" ? rawVal : parseFloat(String(rawVal));
+    if (isNaN(numVal)) return -1;
+    return numVal > 1 ? Math.round(numVal) : Math.round(numVal * 100);
+  };
+
+  // Find max date available in Excel database
+  const maxExcelDate = new Date(latestRow.jsDate);
+  maxExcelDate.setHours(23, 59, 59, 999);
+
+  // Determine start Date and end Date
+  let startDate: Date;
+  let endDate: Date;
+
+  if (dateFromParam && dateToParam) {
+    startDate = new Date(dateFromParam + "T00:00:00");
+    endDate = new Date(dateToParam + "T23:59:59");
+    // Cap at max excel date if user didn't explicitly override with a past date
+    if (endDate > maxExcelDate) {
+      endDate = maxExcelDate;
+    }
+  } else {
+    // Default to the month specified or current month
+    const ym = yearMonth || latestRow.jsDate.toISOString().substring(0, 7);
+    const [y, m] = ym.split("-").map(Number);
+    startDate = new Date(y, m - 1, 1);
+    
+    // Cap at latest excel date if in the same month
+    const endOfMonth = new Date(y, m, 0, 23, 59, 59);
+    endDate = endOfMonth > maxExcelDate ? maxExcelDate : endOfMonth;
+  }
+
+  // Helper for local YYYY-MM-DD string
+  const toLocalDateStr = (d: Date) => {
+    const year = d.getFullYear();
+    const month = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  };
+
+  // Build a lookup map of row data by date YYYY-MM-DD using the processed rows
+  const rowByDateStr = new Map<string, { row: any; isExplicit: boolean }>();
+  rows.forEach((r, idx) => {
+    const dStr = toLocalDateStr(r.jsDate);
+    const origVal = originalRowsData[idx][eqSchema.columnIndex];
+    const isExplicit = origVal !== null && origVal !== undefined && origVal !== "";
+    rowByDateStr.set(dStr, { row: r, isExplicit });
+  });
+
+  // Find latest score prior to startDate as baseline carry over
+  let lastKnownScore = 100;
+  for (const r of rows) {
+    if (r.jsDate < startDate) {
+      const s = parseScore(r.data[eqSchema.columnIndex]);
+      if (s >= 0) lastKnownScore = s;
+    } else {
+      break;
+    }
+  }
+
+  // Loop every single calendar day from startDate to endDate
+  const dailyData: { date: string; score: number; fullDate: string; isExplicit?: boolean }[] = [];
+  let sum = 0, count = 0, highest = 0, lowest = 100;
+  let sehat = 0, peringatan = 0, kritis = 0;
+  let explicitDaysCount = 0;
+
+  const curr = new Date(startDate);
+  while (curr <= endDate) {
+    const dStr = toLocalDateStr(curr);
+    const entry = rowByDateStr.get(dStr);
+
+    let dayScore = lastKnownScore;
+    let isExplicit = false;
+
+    if (entry) {
+      const s = parseScore(entry.row.data[eqSchema.columnIndex]);
+      if (s >= 0) {
+        dayScore = s;
+        lastKnownScore = s;
+      }
+      isExplicit = entry.isExplicit;
+      if (isExplicit) explicitDaysCount++;
+    }
+
+    const dateLabel = curr.toLocaleDateString('id-ID', { day: 'numeric', month: 'short' });
+    const fullDate = curr.toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' });
+
+    dailyData.push({ date: dateLabel, score: dayScore, fullDate, isExplicit });
+
+    sum += dayScore;
+    count++;
+    if (dayScore > highest) highest = dayScore;
+    if (dayScore < lowest) lowest = dayScore;
+
+    if (dayScore < 70) kritis++;
+    else if (dayScore <= dynamicTarget) peringatan++;
+    else sehat++;
+
+    curr.setDate(curr.getDate() + 1);
+  }
+
+  // Calculate summary metrics across full monthly calendar range (including carry-over baseline)
+  const avgScore = count > 0 ? Math.round(sum / count) : 100;
+  const highestScore = count > 0 ? highest : 100;
+  const lowestScore = count > 0 ? lowest : 100;
+
+  // Previous Month Average calculation for comparison
+  const prevMonthStart = new Date(startDate);
+  prevMonthStart.setMonth(prevMonthStart.getMonth() - 1);
+  const prevMonthEnd = new Date(startDate);
+  prevMonthEnd.setDate(prevMonthEnd.getDate() - 1);
+
+  let prevSum = 0, prevCount = 0;
+  rows.forEach((r, idx) => {
+    if (r.jsDate >= prevMonthStart && r.jsDate <= prevMonthEnd) {
+      const origVal = originalRowsData[idx][eqSchema.columnIndex];
+      if (origVal !== null && origVal !== undefined && origVal !== "") {
+        const s = parseScore(r.data[eqSchema.columnIndex]);
+        if (s >= 0) { prevSum += s; prevCount++; }
+      }
+    }
+  });
+  const prevMonthAvg = prevCount > 0 ? Math.round(prevSum / prevCount) : 100;
+
+  const ymStr = `${startDate.getFullYear()}-${String(startDate.getMonth() + 1).padStart(2, "0")}`;
+  const monthNames: Record<string, string> = {
+    "01": "Januari", "02": "Februari", "03": "Maret", "04": "April",
+    "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus",
+    "09": "September", "10": "Oktober", "11": "November", "12": "Desember"
+  };
+  const monthLabel = `${monthNames[String(startDate.getMonth() + 1).padStart(2, "0")] || ""} ${startDate.getFullYear()}`;
+
+  // Maintenance logs within the date range
+  const maintenanceLogs: { date: string; note: string }[] = [];
+  let descColIndex = 11;
+  if (eqSchema.category === "MEKANIKAL") descColIndex = 20;
+  if (eqSchema.category === "ELEKTRONIKA") descColIndex = 33;
+
+  const inRangeRows = rows.filter(r => r.jsDate >= startDate && r.jsDate <= endDate);
+  inRangeRows.forEach(r => {
+    const descRaw = r.data[descColIndex];
+    if (!descRaw || typeof descRaw !== "string") return;
+    const dateStr = r.jsDate.toLocaleDateString("id-ID", { day: 'numeric', month: 'long', year: 'numeric' });
+
+    const cleanedName = eqSchema.displayName.toLowerCase().replace("system", "").replace("scanner", "").trim();
+    const excelName = eqSchema.excelName.toLowerCase().trim();
+    const lines = descRaw.split(/\r?\n/);
+    let currentLine = "";
+
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (trimmed.length === 0) continue;
+      if (/^(\d+\.|-)\s+/.test(trimmed)) {
+        if (currentLine && (currentLine.toLowerCase().includes(cleanedName) || currentLine.toLowerCase().includes(excelName))) {
+          maintenanceLogs.push({ date: dateStr, note: currentLine.replace(/^(\d+\.|-)\s*/, "") });
+        }
+        currentLine = trimmed;
+      } else {
+        currentLine = currentLine ? currentLine + " " + trimmed : trimmed;
+      }
+    }
+    if (currentLine && (currentLine.toLowerCase().includes(cleanedName) || currentLine.toLowerCase().includes(excelName))) {
+      maintenanceLogs.push({ date: dateStr, note: currentLine.replace(/^(\d+\.|-)\s*/, "") });
+    }
+  });
+
+  return {
+    equipment: {
+      id: eqSchema.id,
+      name: eqSchema.displayName,
+      category: eqSchema.category,
+      location: eqSchema.location,
+      brand: specs.brand,
+      model: specs.model,
+      installation: specs.installation,
+    },
+    month: ymStr,
+    monthLabel,
+    target: dynamicTarget,
+    dateFrom: startDate.toISOString().substring(0, 10),
+    dateTo: endDate.toISOString().substring(0, 10),
+    summary: {
+      averageScore: avgScore,
+      highestScore: count > 0 ? highest : 0,
+      lowestScore: count > 0 ? lowest : 0,
+      daysReported: explicitDaysCount > 0 ? explicitDaysCount : count,
+      daysInRange: count,
+      previousMonthAvg: prevMonthAvg,
+      change: prevCount > 0 ? avgScore - prevMonthAvg : 0,
+    },
+    statusDistribution: { sehat, peringatan, kritis },
+    dailyData,
+    maintenanceLogs,
+  };
 }

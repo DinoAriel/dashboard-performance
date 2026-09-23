@@ -126,7 +126,7 @@ export function EquipmentDetailPanel({ equipmentId, onClose, excelTarget = 90, l
           </h3>
           <div className="border border-slate-200 bg-white rounded-lg p-6 flex items-end justify-between shadow-sm">
             <span className="text-4xl font-bold text-[#0F172A]">{data.score}%</span>
-            <div className={`flex items-center gap-1 font-medium text-sm mb-1 ${liveEquipment ? trendColor : "text-red-500"}`}>
+            <div className={`flex items-center gap-1 font-medium text-sm mb-2 ${liveEquipment ? trendColor : "text-red-500"}`}>
               {liveEquipment ? <TrendIcon size={16} /> : <TrendingDown size={16} />}
               {liveEquipment ? trendText : mockEquipmentDetail.scoreChange}
             </div>

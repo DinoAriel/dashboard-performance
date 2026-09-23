@@ -56,8 +56,11 @@ export function AlertList({ alertLogs, isLoading, filters }: AlertListProps) {
       )}
       {isLoading ? (
         <div className="flex flex-col items-center justify-center p-10 mt-10">
-          <div className="w-10 h-10 border-4 border-blue-200 border-t-[#0F52BA] rounded-full animate-spin mb-4"></div>
-          <p className="text-slate-500 font-medium">Memuat data alert...</p>
+          <div className="relative flex items-center justify-center">
+            <div className="absolute w-12 h-12 border-4 border-blue-200 rounded-full animate-ping opacity-20"></div>
+            <div className="w-8 h-8 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
+          </div>
+          <p className="mt-4 text-sm text-slate-500 font-medium animate-pulse">Memuat data alert...</p>
         </div>
       ) : filteredLogs.length === 0 ? (
         <div className="flex flex-col items-center justify-center p-10 mt-10 bg-green-50 border border-green-200 rounded-lg text-center">
